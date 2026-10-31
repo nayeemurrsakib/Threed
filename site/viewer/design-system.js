@@ -1,3 +1,4 @@
+import {mountMotionControl,mountViewOptions} from './motion-controls.js?v=4';
 // threed® design system page: renders tokens live from tokens.css and wires the component specimens.
 import './little-object.js';
 import {bindMagneticButtons} from './buttons.js';
@@ -12,7 +13,7 @@ const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls)
 /* Theme — same behaviour as the studio and guide. */
 function applyTheme(theme){root.dataset.theme=theme;$('site-icon').href=`assets/brand/favicon-${theme}.svg?v=1`;document.querySelectorAll('[data-theme-choice]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.themeChoice===theme)));try{localStorage.setItem('little-things-theme-v1',theme);}catch{}}
 applyTheme(root.dataset.theme||'light');
-document.querySelectorAll('[data-theme-choice]').forEach(b=>b.addEventListener('click',()=>{const change=()=>applyTheme(b.dataset.themeChoice);if(document.startViewTransition&&!matchMedia('(prefers-reduced-motion: reduce)').matches&&!document.hidden)document.startViewTransition(change).ready.catch(()=>{});else change();}));
+document.querySelectorAll('[data-theme-choice]').forEach(b=>b.addEventListener('click',()=>{const change=()=>applyTheme(b.dataset.themeChoice);change();}));
 
 /* Colour */
 const COLORS = [
@@ -27,7 +28,6 @@ function renderColors(){
   const value=token(name).toLowerCase(),twin=COLORS.find(([n])=>n!==name&&COLORS.indexOf(COLORS.find(c=>c[0]===n))<COLORS.findIndex(c=>c[0]===name)&&token(n).toLowerCase()===value);if(twin)card.classList.add('ds-alias');const text=el('div');text.append(el('strong',null,label),el('span','t-body-sm ds-muted',twin?`${role} · uses ${twin[1]} in this theme`:role),el('code',null,`${name} · ${twin?'= '+twin[0]:token(name)}`));
   card.append(chip,text);return card;}));
  renderLayout();
- const ex=document.querySelectorAll('[aria-label="Appearance example"] button');if(ex.length===2){ex[0].setAttribute('aria-pressed',String(root.dataset.theme!=='dark'));ex[1].setAttribute('aria-pressed',String(root.dataset.theme==='dark'));}
 }
 
 /* Type scale */
@@ -52,6 +52,8 @@ addEventListener('resize',renderLayout);
 renderColors();
 
 /* Specimens that share the studio's markup */
+mountMotionControl($('ds-motion'),{name:'ds-motion'});
+mountViewOptions($('ds-view-options'));
 const pressGroup=(box,selector)=>box.addEventListener('click',e=>{const b=e.target.closest(selector);if(!b)return;box.querySelectorAll(selector).forEach(x=>x.setAttribute('aria-pressed',String(x===b)));});
 $('ds-chips').replaceChildren(...['All','Desk','Devices','Kitchen'].map((n,i)=>{const b=el('button','chip',n);b.type='button';b.setAttribute('aria-pressed',String(i===0));return b;}));pressGroup($('ds-chips'),'.chip');
 fetch('presets/lighting.json').then(r=>r.json()).then(lights=>{$('ds-lights').replaceChildren(...Object.entries(lights).map(([n,v],i)=>lightChip(n,v,i===0)));pressGroup($('ds-lights'),'.light-option');}).catch(()=>{});

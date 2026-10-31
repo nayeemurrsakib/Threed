@@ -54,6 +54,8 @@ addEventListener('online', net); addEventListener('offline', net); net();
 render();
 
 // Credit avatar: use the generated PNG when it exists, otherwise keep the drawn SVG.
-fetch('assets/brand/nayeemur-r-s-3d.png', { method: 'HEAD', cache: 'no-cache' }).then(r => {
-  if (r.ok) document.documentElement.style.setProperty('--credit-avatar', 'url(assets/brand/nayeemur-r-s-3d.png)');
+const avatarUrl = new URL('../assets/brand/nayeemur-r-s-3d.png', import.meta.url).href;
+fetch(avatarUrl, { method: 'HEAD', cache: 'no-cache' }).then(r => {
+  // Custom-property URLs resolve at the consuming stylesheet; use an absolute URL.
+  if (r.ok) document.documentElement.style.setProperty('--credit-avatar', `url("${avatarUrl}")`);
 }).catch(() => {});

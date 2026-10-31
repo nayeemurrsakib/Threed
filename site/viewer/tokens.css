@@ -28,7 +28,7 @@
  --serif:Georgia,"Times New Roman",serif;
 
  /* Type scale */
- --fs-2xs:8px;   /* mono labels, meta */
+ --fs-2xs:var(--fs-xs); /* compatibility alias: smallest text is 10px */
  --fs-xs:10px;   /* controls, captions, tile names */
  --fs-sm:12px;   /* body small, inputs */
  --fs-md:14px;   /* body, section titles */

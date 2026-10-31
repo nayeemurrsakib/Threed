@@ -136,3 +136,20 @@ Chip component: .chip-option is the one source for pill chips with a round visua
 
 Selected state: every pick-one option (palette, .chip-option colour/light chips, backdrop dots) uses one 1px ink border/ring via --selected-border — never doubled or filled. Filled ink is reserved for segmented filters (category chips, export platforms). Keyboard focus shows the accent ring only with :focus-visible; clicking never leaves a dark border behind.
 Chips share the secondary-button border tokens: .chip-option rests on --secondary-border and hovers to --secondary-hover-border, with no shadow on hover (no edge shadow at all on chips).
+
+Theme control: the header pill switch was removed. Light/dark is a standard .switch (`.switch.theme-toggle`, input[data-theme-toggle], moon icon, "DARK MODE" in footer mono caps) placed in the header nav before the Read the guide / Back to the studio button, stamped by the header component (the user moved it from the footer to the nav); all pages bind to [data-theme-toggle].
+
+Motion controls (0.13): the main studio row has a shared native Still / Hover / Loop radio control plus Mouse follow and Exploded view switches. Turntable and Orbit frame live under Fine-tune → View. Build the radio and view switches through viewer/motion-controls.js in both the studio and design-system specimens. Map legacy explodeOnHover/explodeHold state through motionFromState/motionState; preserve export semantics, reset to Hover, and keep the orbit frame off by default. --fs-2xs aliases --fs-xs, establishing a 10px minimum without changing the established scale.
+
+The owner now explicitly authorized generating his avatar from his supplied photo and character references. Latest direction: no cap or pencil, normal aligned eyes, and a clearly stylized clay avatar rather than a realistic portrait. Use a different muted pastel palette. Preserve his likeness, glasses, swept hair and neat facial hair. Keep variations under branding/avatars; the chosen footer PNG remains assets/brand/nayeemur-r-s-3d.png.
+
+Theme control (final): the original pill .theme-switch with sun/moon [data-theme-choice] buttons in the header nav. A toggle-switch version was tried (footer, then nav) and the user preferred the pill. Theme changes apply instantly with CSS colour transitions (startViewTransition removed for reliability).
+
+Motion control (.motion-control / .motion-options, viewer/motion-controls.js): styled like the theme pill — stage-coloured track with a line border and an ink thumb that slides between Still / Hover / Loop (selected text in bone). The earlier outlined-segment look was rejected as visually poor.
+Motion label: "Motion" is a .badge (leaf pill) in the sans font, sentence case, muted — same type as the Fine-tune hint — sitting on the top edge of the segmented control, like the collection count badge — not beside it, not as plain text above.
+Badge component: .badge (leaf fill, mono, pill) is the one style for count badges (Collection 60) and control labels.
+
+Final avatar selection supersedes exploration directions: the owner approved the exact green-background blue-crewneck portrait and the exact lavender-background yellow-beanie floating head. Preserve both unchanged as branding/avatars/nayeemur-portrait-green-final.png and nayeemur-beanie-pastel-final.png. The green portrait is the footer default (assets/brand/nayeemur-r-s-3d.png); the beanie is an approved alternative (assets/brand/nayeemur-r-s-3d-beanie.png). Production files are resized derivatives only; do not redraw either approved image.
+
+Full-bleed dividers: horizontal lines inside the side columns (search underline, settings section dividers) run edge to edge between the frame line and the column divider; content keeps 20px padding (--col-pad). Applies at 561px and up.
+Motion control has no visible label (tried beside, above, and as a badge; the user removed it). It keeps aria-label="Motion" for screen readers.

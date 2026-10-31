@@ -172,3 +172,8 @@ Save PNG / Save JSON are the final button labels, with dropdown chevrons and no
 upper labels. Header guide/back buttons match theme-switch height:46px desktop,
 44px mobile;390px browser check has no horizontal overflow. Save JSON hover
 border uses a muted mix rather than full ink.
+
+
+## 0.13 continuation — shared motion controls and avatar
+
+See `reports/continuation/REVIEW.md`. Verified native Still/Hover/Loop keyboard selection, saved Loop restoration, advanced Turntable/Orbit, Reset, 10px minimum studio text, 46px export buttons, unchanged 40px export gap and overflow-free phone/desktop layouts. The studio and design system share `viewer/motion-controls.js`. The two user-approved avatars are retained unchanged at full resolution in `branding/avatars`, with 256px production derivatives.

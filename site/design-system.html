@@ -5,8 +5,8 @@
 <meta name="description" content="The threed® design system: colour, type, spacing, shape and every interface component, live.">
 <link id="site-icon" rel="icon" type="image/svg+xml" href="assets/brand/favicon-light.svg?v=1">
 <script>document.getElementById("site-icon").href="assets/brand/favicon-"+document.documentElement.dataset.theme+".svg?v=1";</script>
-<link rel="stylesheet" href="viewer/tokens.css?v=7">
-<link rel="stylesheet" href="viewer/studio.css?v=0.12.9-chipborder">
+<link rel="stylesheet" href="viewer/tokens.css?v=8-min10">
+<link rel="stylesheet" href="viewer/studio.css?v=0.14.2-bleed">
 <link rel="stylesheet" href="viewer/guide.css?v=4-ds">
 <link rel="stylesheet" href="viewer/buttons.css?v=2-ds">
 <link rel="stylesheet" href="viewer/design-system.css?v=8">
@@ -33,7 +33,7 @@
 
    <section id="type" class="guide-section">
     <h2>Type</h2>
-    <p>Three families and nine sizes. Repeated text uses a named style, never a one-off size.</p>
+    <p>Three families, a 10px minimum, and a shared size scale. Repeated text uses a named style, never a one-off size.</p>
     <div class="ds-type">
      <div class="ds-type-row"><span class="t-display">The object room</span><code>.t-display · serif · --fs-4xl 48</code></div>
      <div class="ds-type-row"><span class="t-heading">Choose what you need</span><code>.t-heading · serif · --fs-3xl 38</code></div>
@@ -42,7 +42,7 @@
      <div class="ds-type-row"><span class="t-body-sm">A rounded twin-bell clock with moving hands.</span><code>.t-body-sm · sans · --fs-sm 12</code></div>
      <div class="ds-type-row"><span class="t-caption">Mouse follow</span><code>.t-caption · sans · --fs-xs 10</code></div>
      <div class="ds-type-row"><span class="t-meta">06 / 60</span><code>.t-meta · mono · --fs-xs 10</code></div>
-     <div class="ds-type-row"><span class="t-label">Designed as objects. Built to move.</span><code>.t-label · mono caps · --fs-2xs 8</code></div>
+     <div class="ds-type-row"><span class="t-label">Designed as objects. Built to move.</span><code>.t-label · mono caps · --fs-2xs → --fs-xs 10</code></div>
     </div>
     <div class="ds-scale" id="type-scale"></div>
    </section>
@@ -80,7 +80,8 @@
 
    <section id="controls" class="guide-section">
     <h2>Controls</h2>
-    <p>Switches for on/off, sliders for amounts, selects for a short list.</p>
+    <p>One motion choice, switches for on/off, sliders for amounts, selects for a short list. The smallest text is 10px.</p>
+    <div class="ds-specimen"><div id="ds-motion"></div><code>.motion-control — Still / Hover / Loop, native radio keys</code></div>
     <div class="ds-specimen"><label class="switch"><input type="checkbox" checked><span class="switch-track"></span>Mouse follow</label><label class="switch"><input type="checkbox"><span class="switch-track"></span>Exploded view</label><code>.switch</code></div>
     <div class="ds-specimen ds-wide"><label class="range-row"><span>Strength <output id="ds-range-out">3.0</output></span><input id="ds-range" type="range" min="0" max="7" step=".1" value="3"></label><code>.range-row</code></div>
     <div class="ds-specimen ds-wide"><label class="select-row">Material finish<span class="select-control"><select><option>Object original</option><option>Satin ceramic</option><option>Matte clay</option></select><svg class="select-chevron" width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 5 4 4 4-4"/></svg></span></label><code>.select-row</code></div>
@@ -94,8 +95,8 @@
     <div class="ds-specimen ds-wide"><div class="palette-options" id="ds-palettes"></div><code>.palette</code></div>
     <div class="ds-specimen"><div class="color-controls ds-colors" id="ds-colors"></div><code>.chip-option.color-control — hover shows the hex</code></div>
     <div class="ds-specimen ds-wide"><div class="light-options" id="ds-lights"></div><code>.chip-option.light-option — lit-sphere preview of each preset</code></div>
-    <div class="ds-specimen ds-wide"><details class="fine-tune ds-fine-tune"><summary><h3><span>04</span> Fine-tune</h3><span class="fine-tune-hint">Light, shadow</span><svg class="fine-tune-chevron" width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 5 4 4 4-4"/></svg></summary><div class="fine-tune-body"><p class="fine-tune-label t-label">Shadow</p><label class="range-row"><span>Density <output>0.55</output></span><input type="range" min="0" max="1" step=".05" value=".55"></label></div></details><code>details.fine-tune — collapsed advanced controls, remembers open state</code></div>
-    <div class="ds-specimen"><div class="theme-switch" role="group" aria-label="Appearance example"><button type="button" aria-label="Light" aria-pressed="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.4 1.4M17.6 17.6L19 19M5 19l1.4-1.4M17.6 6.4L19 5"/></svg></button><button type="button" aria-label="Dark" aria-pressed="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M20 15.2A8.7 8.7 0 0 1 8.8 4a8.7 8.7 0 1 0 11.2 11.2Z"/></svg></button></div><code>.theme-switch</code></div>
+    <div class="ds-specimen ds-wide"><details class="fine-tune ds-fine-tune"><summary><h3><span>04</span> Fine-tune</h3><span class="fine-tune-hint">Light, shadow, view</span><svg class="fine-tune-chevron" width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 5 4 4 4-4"/></svg></summary><div class="fine-tune-body"><p class="fine-tune-label t-label">View</p><div id="ds-view-options"></div><p class="fine-tune-label t-label">Shadow</p><label class="range-row"><span>Density <output>0.55</output></span><input type="range" min="0" max="1" step=".05" value=".55"></label></div></details><code>details.fine-tune + .view-options — advanced light, shadow and view controls</code></div>
+    <div class="ds-specimen"><div class="theme-switch" role="group" aria-label="Appearance example"><button type="button" aria-label="Light mode" title="Light mode" aria-pressed="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.4 1.4M17.6 17.6L19 19M5 19l1.4-1.4M17.6 6.4L19 5"/></svg></button><button type="button" aria-label="Dark mode" title="Dark mode" aria-pressed="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M20 15.2A8.7 8.7 0 0 1 8.8 4a8.7 8.7 0 1 0 11.2 11.2Z"/></svg></button></div><code>.theme-switch — light / dark, header nav</code></div>
    </section>
 
    <section id="collection" class="guide-section">
@@ -103,6 +104,7 @@
     <p>Tiles pair a thumbnail with a name and index. The selected tile gets the ink ring and an accent dot. Hovering lifts a tile slightly.</p>
     <div class="ds-tiles object-grid" id="ds-tiles"></div>
     <div class="ds-specimen"><div class="section-heading ds-heading"><h2>Collection <span>60</span></h2><span class="small-mono">01—60</span></div><code>.section-heading</code></div>
+    <div class="ds-specimen"><div class="ds-nav-pair"><span class="badge">60</span></div><code>.badge — counts</code></div>
    </section>
 
    <section id="feedback" class="guide-section">
@@ -145,7 +147,7 @@
    </section>
   </div>
  </div>
- <!-- component:footer link=studio --><footer class="site-footer"><span>DESIGNED AS OBJECTS. BUILT TO MOVE.</span><a class="credit" href="https://x.com/nayeemur_r_s" target="_blank" rel="noopener noreferrer" aria-label="A project by NayeemurRSakib on X"><span class="credit-avatar" aria-hidden="true"><span class="credit-face credit-front"><img src="assets/brand/nayeemur-r-s.jpg" width="16" height="16" alt=""></span><span class="credit-face credit-back"></span></span><span>A PROJECT BY <span class="credit-name">NAYEEMURRSAKIB</span></span></a><span class="footer-end"><span class="site-status" data-live data-status="ok" role="status" aria-live="polite"><span class="status-dot" aria-hidden="true"></span><span class="status-text">ALL SYSTEMS OPERATIONAL</span></span><a class="footer-link" href="./">Back to Studio<svg class="footer-link-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9 9 3M4 3h5v5"/></svg></a></span><script type="module" src="viewer/status.js?v=2"></script></footer><!-- /component:footer -->
+ <!-- component:footer link=studio --><footer class="site-footer"><span>DESIGNED AS OBJECTS. BUILT TO MOVE.</span><a class="credit" href="https://x.com/nayeemur_r_s" target="_blank" rel="noopener noreferrer" aria-label="A project by NayeemurRSakib on X"><span class="credit-avatar" aria-hidden="true"><span class="credit-face credit-front"><img src="assets/brand/nayeemur-r-s.jpg" width="16" height="16" alt=""></span><span class="credit-face credit-back"></span></span><span>A PROJECT BY <span class="credit-name">NAYEEMURRSAKIB</span></span></a><span class="footer-end"><span class="site-status" data-live data-status="ok" role="status" aria-live="polite"><span class="status-dot" aria-hidden="true"></span><span class="status-text">ALL SYSTEMS OPERATIONAL</span></span><a class="footer-link" href="./">Back to Studio<svg class="footer-link-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9 9 3M4 3h5v5"/></svg></a></span><script type="module" src="viewer/status.js?v=3-avatar-url"></script></footer><!-- /component:footer -->
 </main><div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script type="module" src="viewer/design-system.js?v=10"></script><script type="module" src="viewer/brand-mark.js?v=0.8.4-guide-logo"></script>
+<script type="module" src="viewer/design-system.js?v=18-nolabel"></script><script type="module" src="viewer/brand-mark.js?v=0.8.4-guide-logo"></script>
 </body></html>
