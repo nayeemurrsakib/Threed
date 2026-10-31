@@ -1,0 +1,19 @@
+{
+  "models": 60,
+  "uniqueModels": 60,
+  "triangles": 5404188,
+  "transparentPngs": 60,
+  "pngResolution": "1024x1024",
+  "qualityStandard": "camera-craft-v1",
+  "authoredAssemblies": 346,
+  "currentReviewBoards": 6,
+  "categories": {
+    "Desk": 10,
+    "Devices": 10,
+    "Kitchen": 10,
+    "Commerce": 10,
+    "Travel": 10,
+    "Play": 10
+  },
+  "checks": "GLB headers, chunks, accessor bounds/alignment, finite positions, unit normals, valid indices/materials, floor origins, presentation scale, unique hashes, PNG dimensions and alpha channel, authored assembly timing and consistent offsets, standard metadata, current review-board hashes"
+}

@@ -1,0 +1,10 @@
+{
+  "speakerConeDustCapSurroundTogether": true,
+  "cabinetFixed": true,
+  "scaleDipsAndSettles": true,
+  "scaleReplaysOnActivation": true,
+  "capRootSeatedInSweatband": true,
+  "capTipsTapered": true,
+  "smileMinimumJacobian": 0.41317946583143816,
+  "reducedMotionSmileOff": true
+}

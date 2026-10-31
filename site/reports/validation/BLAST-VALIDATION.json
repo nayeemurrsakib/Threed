@@ -1,0 +1,9 @@
+{
+  "models": 60,
+  "parts": 1669,
+  "authoredInspectionOffsets": true,
+  "defaultHoverOffsetsZero": true,
+  "blastDefaultOff": true,
+  "interruptibleDamping": true,
+  "finiteTransforms": true
+}

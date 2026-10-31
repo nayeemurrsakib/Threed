@@ -1,0 +1,99 @@
+{
+  "name": "threed\u00ae EE studies",
+  "status": "Pending approval \u2014 separate from the main site",
+  "assets": [
+    {
+      "id": "01-soft-keys",
+      "name": "Soft keys",
+      "category": "Brand study",
+      "description": "Sage caps, a fine coral gasket and ivory bases. A friendly tactile pair.",
+      "model": "models/01-soft-keys.glb",
+      "thumbnail": "previews/01-soft-keys.png",
+      "dimensions": [
+        2.0,
+        1.0026,
+        0.395
+      ],
+      "triangles": 493506,
+      "vertices": 246753,
+      "parts": 6,
+      "bytes": 11851412,
+      "materialSlots": [
+        "accent",
+        "paper",
+        "secondary"
+      ],
+      "preferredPalette": null,
+      "study": null,
+      "qualityStandard": null,
+      "assemblies": [
+        "Left ee",
+        "Right ee"
+      ],
+      "interaction": "Subtle idle breathing; hover to greet. No integration until approved.",
+      "hint": null,
+      "reviewStatus": "pending-user-approval"
+    },
+    {
+      "id": "02-porcelain",
+      "name": "Porcelain twins",
+      "category": "Brand study",
+      "description": "Deep ivory ceramic letters with a warm coral reverse. A small shared bow.",
+      "model": "models/02-porcelain.glb",
+      "thumbnail": "previews/02-porcelain.png",
+      "dimensions": [
+        2.0,
+        1.0026,
+        0.4275
+      ],
+      "triangles": 341612,
+      "vertices": 170806,
+      "parts": 4,
+      "bytes": 8203740,
+      "materialSlots": [
+        "accent",
+        "body"
+      ],
+      "preferredPalette": null,
+      "study": null,
+      "qualityStandard": null,
+      "assemblies": [
+        "Left ee",
+        "Right ee"
+      ],
+      "interaction": "Subtle idle breathing; hover to greet. No integration until approved.",
+      "hint": null,
+      "reviewStatus": "pending-user-approval"
+    },
+    {
+      "id": "03-ink-cushions",
+      "name": "Ink cushions",
+      "category": "Brand study",
+      "description": "Plump ink letters with softly rounded shoulders. A slow buoyant breathing motion. Ivory in dark mode.",
+      "model": "models/03-ink-cushions.glb",
+      "thumbnail": "previews/03-ink-cushions.png",
+      "dimensions": [
+        2.0,
+        1.0026,
+        0.4461
+      ],
+      "triangles": 186734,
+      "vertices": 93367,
+      "parts": 2,
+      "bytes": 4484496,
+      "materialSlots": [
+        "ink"
+      ],
+      "preferredPalette": null,
+      "study": null,
+      "qualityStandard": null,
+      "assemblies": [
+        "Left ee",
+        "Right ee"
+      ],
+      "interaction": "Subtle idle breathing; hover to greet. No integration until approved.",
+      "hint": null,
+      "reviewStatus": "pending-user-approval"
+    }
+  ]
+}

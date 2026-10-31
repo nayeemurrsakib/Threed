@@ -1,0 +1,362 @@
+[
+  {
+    "id": "dome-lamp",
+    "name": "Dome lamp",
+    "category": "Desk",
+    "description": "Double-walled enamel dome, opal diffuser, light engine and a continuous flared ceramic pedestal."
+  },
+  {
+    "id": "task-lamp",
+    "name": "Task lamp",
+    "category": "Desk",
+    "description": "Articulated desk light with two pivot joints."
+  },
+  {
+    "id": "pencil-cup",
+    "name": "Pencil cup",
+    "category": "Desk",
+    "description": "Open ceramic vessel with three contrasting writing tools."
+  },
+  {
+    "id": "stapler",
+    "name": "Stapler",
+    "category": "Desk",
+    "description": "Weighted desktop stapler with a visible hinge and metal jaw."
+  },
+  {
+    "id": "pocket-notebook",
+    "name": "Pocket notebook",
+    "category": "Desk",
+    "description": "Clothbound notebook with page block, elastic and ribbon."
+  },
+  {
+    "id": "calculator",
+    "name": "Calculator",
+    "category": "Desk",
+    "description": "Rounded desktop calculator with individual tactile keys."
+  },
+  {
+    "id": "tape-dispenser",
+    "name": "Tape dispenser",
+    "category": "Desk",
+    "description": "Curved weighted tape dispenser with exposed spool and blade."
+  },
+  {
+    "id": "alarm-clock",
+    "name": "Alarm clock",
+    "category": "Desk",
+    "description": "Twin-bell clock with raised hands and minute markers."
+  },
+  {
+    "id": "sand-timer",
+    "name": "Sand timer",
+    "category": "Desk",
+    "description": "Continuous blown-glass hourglass with fine sand, turned end caps and a separate protective frame."
+  },
+  {
+    "id": "fountain-pen",
+    "name": "Fountain pen",
+    "category": "Desk",
+    "description": "Pocket pen with brass nib, cap band and sculpted clip."
+  },
+  {
+    "id": "rangefinder-camera",
+    "name": "Studio camera",
+    "category": "Devices",
+    "description": "A hollow pearl camera with a sculpted front cover, periwinkle optical assembly, glass elements and a removable film cartridge."
+  },
+  {
+    "id": "portable-radio",
+    "name": "Portable radio",
+    "category": "Devices",
+    "description": "Soft unibody radio with a perforated grille, inset dial, delicate antenna and leather-style handle."
+  },
+  {
+    "id": "over-ear-headphones",
+    "name": "Headphones",
+    "category": "Devices",
+    "description": "Over-ear headset with a padded arched headband and split cups."
+  },
+  {
+    "id": "game-controller",
+    "name": "Game controller",
+    "category": "Devices",
+    "description": "Continuous ergonomic grip shell, sculpted control surface and separate analog and action-key assemblies."
+  },
+  {
+    "id": "bookshelf-speaker",
+    "name": "Bookshelf speaker",
+    "category": "Devices",
+    "description": "Compact two-way speaker with concentric drivers and a status light."
+  },
+  {
+    "id": "desktop-display",
+    "name": "Desktop display",
+    "category": "Devices",
+    "description": "Freestanding display with inset screen, neck and heavy foot."
+  },
+  {
+    "id": "mechanical-keyboard",
+    "name": "Keyboard",
+    "category": "Devices",
+    "description": "Low-profile 40-key keyboard with a contrasting spacebar."
+  },
+  {
+    "id": "pocket-console",
+    "name": "Pocket console",
+    "category": "Devices",
+    "description": "Portrait handheld console with inset screen, D-pad and two action buttons."
+  },
+  {
+    "id": "studio-microphone",
+    "name": "Studio microphone",
+    "category": "Devices",
+    "description": "Capsule microphone on a desktop stand with a yoke and grille."
+  },
+  {
+    "id": "web-camera",
+    "name": "Web camera",
+    "category": "Devices",
+    "description": "Capsule webcam on a pivoting monitor clip."
+  },
+  {
+    "id": "pour-over-kettle",
+    "name": "Pour-over kettle",
+    "category": "Kitchen",
+    "description": "Rounded enamel kettle with arched handle and slender gooseneck."
+  },
+  {
+    "id": "stovetop-brewer",
+    "name": "Stovetop brewer",
+    "category": "Kitchen",
+    "description": "Hollow lower chamber, filter basket and upper collector with a pouring spout and fitted lid."
+  },
+  {
+    "id": "two-slot-toaster",
+    "name": "Toaster",
+    "category": "Kitchen",
+    "description": "Two-slot toaster with raised levers, vents and a circular browning dial."
+  },
+  {
+    "id": "lidded-pot",
+    "name": "Lidded pot",
+    "category": "Kitchen",
+    "description": "Enamel cooking pot with two loop handles and a domed lid."
+  },
+  {
+    "id": "countertop-blender",
+    "name": "Blender",
+    "category": "Kitchen",
+    "description": "Transparent hollow pitcher with separate blades, drive collar, lid and a rounded motor enclosure."
+  },
+  {
+    "id": "espresso-cup",
+    "name": "Espresso cup",
+    "category": "Kitchen",
+    "description": "Thick ceramic cup, saucer and visible coffee surface."
+  },
+  {
+    "id": "insulated-bottle",
+    "name": "Insulated bottle",
+    "category": "Kitchen",
+    "description": "Double-wall bottle with a contrasting screw lid and carrying loop."
+  },
+  {
+    "id": "citrus-press",
+    "name": "Citrus press",
+    "category": "Kitchen",
+    "description": "Manual citrus press with a fluted reamer and catch bowl."
+  },
+  {
+    "id": "kitchen-scale",
+    "name": "Kitchen scale",
+    "category": "Kitchen",
+    "description": "Mechanical countertop scale with a raised pan and round dial."
+  },
+  {
+    "id": "pepper-mill",
+    "name": "Pepper mill",
+    "category": "Kitchen",
+    "description": "Sculptural pepper grinder with a pinched waist and brass top screw."
+  },
+  {
+    "id": "shopping-tote",
+    "name": "Shopping tote",
+    "category": "Commerce",
+    "description": "Structured shopping bag with rounded fabric handles."
+  },
+  {
+    "id": "ribbon-gift",
+    "name": "Ribbon gift",
+    "category": "Commerce",
+    "description": "Wrapped square present with a ribbon cross and sculpted bow."
+  },
+  {
+    "id": "payment-terminal",
+    "name": "Payment terminal",
+    "category": "Commerce",
+    "description": "Countertop card terminal with a screen and raised payment keys."
+  },
+  {
+    "id": "delivery-parcel",
+    "name": "Delivery parcel",
+    "category": "Commerce",
+    "description": "Rounded shipping box with paper tape, corner seam and label."
+  },
+  {
+    "id": "market-basket",
+    "name": "Market basket",
+    "category": "Commerce",
+    "description": "Open market basket with vertical slots and a folding arch handle."
+  },
+  {
+    "id": "price-tag",
+    "name": "Price tag",
+    "category": "Commerce",
+    "description": "Thick rounded tag with raised circular seal and tied cord."
+  },
+  {
+    "id": "coin-stack",
+    "name": "Coin stack",
+    "category": "Commerce",
+    "description": "Two unequal coin stacks with raised face medallions."
+  },
+  {
+    "id": "store-awning",
+    "name": "Storefront",
+    "category": "Commerce",
+    "description": "Miniature storefront with striped awning and recessed display window."
+  },
+  {
+    "id": "receipt-printer",
+    "name": "Receipt printer",
+    "category": "Commerce",
+    "description": "Rounded thermal printer with separate paper roll, feed mechanism and a continuous curled receipt."
+  },
+  {
+    "id": "piggy-bank",
+    "name": "Piggy bank",
+    "category": "Commerce",
+    "description": "Plump ceramic savings pig with four feet and a coin slot."
+  },
+  {
+    "id": "cabin-suitcase",
+    "name": "Cabin suitcase",
+    "category": "Travel",
+    "description": "Ribbed hard-shell carry-on with telescoping handle and wheels."
+  },
+  {
+    "id": "weekend-backpack",
+    "name": "Backpack",
+    "category": "Travel",
+    "description": "Rounded travel backpack with front pocket, top loop and two straps."
+  },
+  {
+    "id": "binoculars",
+    "name": "Binoculars",
+    "category": "Travel",
+    "description": "Twin optical barrels connected by a center hinge and focus wheel."
+  },
+  {
+    "id": "pocket-compass",
+    "name": "Pocket compass",
+    "category": "Travel",
+    "description": "Open compass with cardinal markers, floating needle and a carrying ring."
+  },
+  {
+    "id": "camp-lantern",
+    "name": "Camp lantern",
+    "category": "Travel",
+    "description": "Protective lantern cage around a warm central diffuser."
+  },
+  {
+    "id": "travel-mug",
+    "name": "Travel mug",
+    "category": "Travel",
+    "description": "Insulated takeaway mug with a thick lip and side handle."
+  },
+  {
+    "id": "passport-wallet",
+    "name": "Passport wallet",
+    "category": "Travel",
+    "description": "Pocket travel document with inset emblem and layered page block."
+  },
+  {
+    "id": "folding-sunglasses",
+    "name": "Sunglasses",
+    "category": "Travel",
+    "description": "Thick-framed round sunglasses with curved temples."
+  },
+  {
+    "id": "sun-cap",
+    "name": "Sun cap",
+    "category": "Travel",
+    "description": "Smooth open six-panel crown, stitched curved bill, sweatband and a separate top button."
+  },
+  {
+    "id": "key-fob",
+    "name": "Key fob",
+    "category": "Travel",
+    "description": "Rounded leather-style fob, brass split ring and single house key."
+  },
+  {
+    "id": "orbit-sculpture",
+    "name": "Orbit sculpture",
+    "category": "Play",
+    "description": "Interlocking sculptural hoops around a ceramic center sphere."
+  },
+  {
+    "id": "stacking-rings",
+    "name": "Stacking rings",
+    "category": "Play",
+    "description": "Four softly inflated rings on a rounded central peg."
+  },
+  {
+    "id": "little-rocket",
+    "name": "Little rocket",
+    "category": "Play",
+    "description": "Toy rocket with a round porthole and three sculpted fins."
+  },
+  {
+    "id": "rubber-duck",
+    "name": "Rubber duck",
+    "category": "Play",
+    "description": "Sculpted bathing duck with flattened tail, broad beak and raised wings."
+  },
+  {
+    "id": "tiny-robot",
+    "name": "Tiny robot",
+    "category": "Play",
+    "description": "Friendly box robot with two lens eyes and articulated-looking limbs."
+  },
+  {
+    "id": "cloud-sculpture",
+    "name": "Cloud sculpture",
+    "category": "Play",
+    "description": "Single continuous ceramic cloud surface on hidden pins and a rounded display plinth."
+  },
+  {
+    "id": "ceramic-rainbow",
+    "name": "Ceramic rainbow",
+    "category": "Play",
+    "description": "Three thick standing arches on a rounded plinth."
+  },
+  {
+    "id": "flower-vase",
+    "name": "Flower vase",
+    "category": "Play",
+    "description": "Glazed bud vase with a brass stem and five-petal sculpted flower."
+  },
+  {
+    "id": "wind-up-bird",
+    "name": "Wind-up bird",
+    "category": "Play",
+    "description": "Small mechanical bird on two feet, with a rear winding key."
+  },
+  {
+    "id": "balance-mobile",
+    "name": "Balance mobile",
+    "category": "Play",
+    "description": "Desktop kinetic sculpture with offset weights and a curved fulcrum."
+  }
+]

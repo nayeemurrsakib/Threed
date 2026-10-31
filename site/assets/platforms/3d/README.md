@@ -1,0 +1,1 @@
+Native beveled GLB meshes and transparent PNGs for the guide button. Source: branding/source/build_platform_marks.py. Official SVG path provenance: ../SOURCES.md. These are interface marks, not additional library objects.

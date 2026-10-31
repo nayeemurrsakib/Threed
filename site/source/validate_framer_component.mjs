@@ -1,0 +1,14 @@
+import {stripTypeScriptTypes} from 'node:module';
+import {readFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+const source=readFileSync(new URL('../integrations/framer/Threed.tsx',import.meta.url),'utf8');
+const javascript=stripTypeScriptTypes(source).replace(/^import .+$/gm,'').replace('export default function Threed','function Threed');
+let controls;const React={createElement:(type,props,...children)=>({type,props,children})};
+const {Threed}=new Function('React','addPropertyControls','ControlType',javascript+';return {Threed};')(React,(_,value)=>{controls=value;},new Proxy({},{get:(_,key)=>key}));
+assert.equal(Threed({}).type,'div');
+const iframe=Threed({...Threed.defaultProps,library:'https://example.com/library/',body:'rgb(255, 100, 20)',motion:'loop',transparent:false,theme:'dark'});
+assert.equal(iframe.type,'iframe');assert.equal(new URL(iframe.props.src).pathname,'/library/embed.html');
+const scene=JSON.parse(new URLSearchParams(new URL(iframe.props.src).hash.slice(1)).get('scene'));
+assert.equal(scene.colors.body,'#ff6414');assert.equal(scene.motion,'loop');assert.equal(scene.transparent,false);assert.equal(scene.theme,'dark');assert.equal(scene.id,'rangefinder-camera');
+assert.equal(Threed({library:'javascript:alert(1)'}).type,'div');assert.equal(controls.motion.type,'Enum');assert.equal(controls.body.optional,true);assert.equal(controls.background.hidden({transparent:true}),true);
+console.log(JSON.stringify({typescriptSyntax:true,actualComponentRendersIframe:true,invalidURLShowsSetup:true,framerRGBConverted:true,sceneOptionsPreserved:true,propertyControlsPresent:true},null,2));

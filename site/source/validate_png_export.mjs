@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {readFileSync,writeFileSync} from 'node:fs';
+const source=readFileSync(new URL('../viewer/renderer.js',import.meta.url),'utf8');
+const {ObjectRenderer}=await import(`data:text/javascript;base64,${Buffer.from(source).toString('base64')}`);
+const canvas=Object.freeze({width:600,height:400,clientWidth:300,clientHeight:200});
+let output,deleted=0;const frames=[];
+const gl=new Proxy({MAX_RENDERBUFFER_SIZE:4096,FRAMEBUFFER_COMPLETE:1,getParameter:()=>4096,checkFramebufferStatus:()=>1,createFramebuffer:()=>({kind:'framebuffer'}),createTexture:()=>({}),createRenderbuffer:()=>({}),readPixels:(_x,_y,_w,_h,_f,_t,p)=>p.set([64,0,0,128,0,0,0,0,0,255,0,255,0,0,64,128]),deleteFramebuffer:()=>deleted++,deleteTexture:()=>deleted++,deleteRenderbuffer:()=>deleted++},{get:(object,key)=>object[key]??(()=>{})});
+globalThis.document={createElement:()=>({getContext:()=>({createImageData:(w,h)=>({data:new Uint8ClampedArray(w*h*4)}),putImageData:image=>{output=image.data;}}),toBlob:resolve=>resolve(new Blob(['png'],{type:'image/png'}))})};
+const renderer={gl,canvas,transparent:true,state:{background:'#28302d'},render:target=>frames.push(target)};
+const png=await ObjectRenderer.prototype.png.call(renderer,2);
+assert.equal(png.type,'image/png');assert.equal(renderer.canvas,canvas);assert.equal(canvas.width,600);assert.equal(canvas.height,400);assert.equal(renderer.transparent,true);
+assert.equal(frames.length,2);assert.equal(frames[0].framebuffer.kind,'framebuffer');assert.equal(frames[0].width,2);assert.equal(frames[0].height,2);assert.equal(frames[0].transparent,true);assert.equal(frames[1],undefined);assert.equal(deleted,3);
+assert.deepEqual([...output],[0,255,0,255,0,0,128,128,128,0,0,128,0,0,0,0]);
+await assert.rejects(()=>ObjectRenderer.prototype.png.call(renderer,0),/PNG size/);
+const result={liveCanvasNeverResized:true,previewTransparencyPreserved:true,offscreenTarget:true,previewRepainted:true,alphaAndOrientationCorrect:true,gpuResourcesReleased:true};
+writeFileSync(new URL('../reports/validation/PNG-EXPORT-VALIDATION.json',import.meta.url),JSON.stringify(result,null,2)+'\n');console.log(result);

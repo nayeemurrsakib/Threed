@@ -1,0 +1,47 @@
+{
+  "Softbox": {
+    "azimuth": -40,
+    "elevation": 48,
+    "intensity": 3.0,
+    "fill": 0.65,
+    "warmth": 0.15,
+    "shadow": 0.55,
+    "softness": 2.5
+  },
+  "Daylight": {
+    "azimuth": -65,
+    "elevation": 60,
+    "intensity": 3.5,
+    "fill": 0.85,
+    "warmth": -0.18,
+    "shadow": 0.35,
+    "softness": 3.0
+  },
+  "Golden hour": {
+    "azimuth": -75,
+    "elevation": 23,
+    "intensity": 3.7,
+    "fill": 0.35,
+    "warmth": 0.8,
+    "shadow": 0.7,
+    "softness": 1.2
+  },
+  "Gallery": {
+    "azimuth": 30,
+    "elevation": 65,
+    "intensity": 3.8,
+    "fill": 0.3,
+    "warmth": 0,
+    "shadow": 0.65,
+    "softness": 1.8
+  },
+  "Product studio": {
+    "azimuth": -45,
+    "elevation": 50,
+    "intensity": 5.2,
+    "fill": 0.32,
+    "warmth": -0.05,
+    "shadow": 0.72,
+    "softness": 3.6
+  }
+}

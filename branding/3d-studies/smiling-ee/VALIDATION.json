@@ -1,0 +1,29 @@
+[
+  {
+    "model": "01-soft-keys.glb",
+    "parts": 6,
+    "finiteGeometry": true,
+    "unitNormals": true,
+    "nonManifoldEdges": 0,
+    "collapsedTriangles": 0,
+    "nearZeroAreaTriangles": 32
+  },
+  {
+    "model": "02-porcelain.glb",
+    "parts": 4,
+    "finiteGeometry": true,
+    "unitNormals": true,
+    "nonManifoldEdges": 0,
+    "collapsedTriangles": 0,
+    "nearZeroAreaTriangles": 159
+  },
+  {
+    "model": "03-ink-cushions.glb",
+    "parts": 2,
+    "finiteGeometry": true,
+    "unitNormals": true,
+    "nonManifoldEdges": 0,
+    "collapsedTriangles": 0,
+    "nearZeroAreaTriangles": 33
+  }
+]

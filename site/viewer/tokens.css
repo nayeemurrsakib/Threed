@@ -1,0 +1,84 @@
+/* threed® design tokens — the single source for colour, type, spacing, shape and layout.
+   Every page loads this first. Components in studio.css / guide.css / buttons.css use these
+   variables instead of raw values. The live reference is design-system.html. */
+:root{
+ /* Colour — light */
+ --bone:#f5f3ed;        /* page background */
+ --stage:#ebe9e2;       /* object stage, wells, inputs */
+ --paper:#fffdf7;       /* raised surfaces: menus, secondary buttons */
+ --ink:#29332d;         /* primary text, selected states */
+ --muted:#72776e;       /* secondary text, labels */
+ --line:#dcded4;        /* hairlines and borders */
+ --leaf:#dce4d8;        /* hover and selected fills */
+ --accent:#db653f;      /* brand orange: primary action, focus */
+ --button-shadow:#97432a;
+ --on-accent:#fff8ee;   /* text on the accent */
+ --track:#c6c9be;       /* switch track, off */
+ --track-on:var(--ink); /* switch track, on */
+ --knob:var(--paper);
+ --selected-border:var(--ink);   /* the one selected state for pick-one options */
+ --secondary-border:color-mix(in srgb,var(--line) 78%,var(--muted));       /* quiet buttons */
+ --secondary-hover-border:color-mix(in srgb,var(--line) 52%,var(--muted)); /* quiet buttons, hover */
+ --status-ok:#2fa866;    /* live status: healthy */
+ --status-error:#d93b30; /* live status: problem */
+
+ /* Type families */
+ --sans:"Helvetica Neue",Helvetica,Arial,sans-serif;
+ --mono:"SFMono-Regular",Consolas,"Liberation Mono",monospace;
+ --serif:Georgia,"Times New Roman",serif;
+
+ /* Type scale */
+ --fs-2xs:8px;   /* mono labels, meta */
+ --fs-xs:10px;   /* controls, captions, tile names */
+ --fs-sm:12px;   /* body small, inputs */
+ --fs-md:14px;   /* body, section titles */
+ --fs-lg:18px;   /* icons, lead */
+ --fs-xl:24px;   /* small headings */
+ --fs-2xl:30px;  /* object titles */
+ --fs-3xl:38px;  /* page headings */
+ --fs-4xl:48px;  /* display */
+ --fs-5xl:64px;  /* guide hero */
+ --tracking-label:.7px;
+ --tracking-display:-1.8px;
+
+ /* Spacing scale (4px grid, with 2 and 6 as half-steps) */
+ --space-2:2px;--space-4:4px;--space-6:6px;--space-8:8px;--space-12:12px;--space-16:16px;
+ --space-20:20px;--space-24:24px;--space-32:32px;--space-40:40px;--space-48:48px;--space-64:64px;
+
+ /* Shape */
+ --radius-xs:4px;     /* swatches, small chips of colour */
+ --radius-sm:8px;     /* tiles, inputs, stage */
+ --radius-md:12px;    /* cards, menus, secondary buttons */
+ --radius-pill:999px; /* buttons, chips, switches */
+ --radius-round:50%;  /* round buttons, dots, avatars */
+
+ /* Layout */
+ --page-max:1800px;
+ --page-gutter:32px;  /* space between the window edge and the framed page */
+ --header-h:88px;
+ --control-h:46px;    /* header controls */
+ --button-h:46px;     /* primary and secondary action buttons */
+
+ /* Motion */
+ --ease:cubic-bezier(.23,1,.32,1);
+ --dur-fast:160ms;
+ --dur:240ms;
+}
+:root[data-theme="dark"]{
+ color-scheme:dark;
+ --bone:#161c19;--stage:#242c27;--paper:#232e27;--ink:#e7e9df;--muted:#adb7ab;--line:#3b473f;--leaf:#35483d;
+ --accent:#e8845b;--button-shadow:#813c24;--status-ok:#46c47f;--status-error:#f0604f;--on-accent:#211a13;--track:#505f54;--track-on:#8ca995;--knob:#f0f0e8;
+}
+:root[data-theme="light"]{color-scheme:light}
+@media(max-width:560px){:root{--header-h:72px;--control-h:44px}}
+
+/* Text styles — use these classes for repeated small text instead of one-off font rules. */
+.t-label{font:var(--fs-2xs)/1.5 var(--mono);letter-spacing:var(--tracking-label);text-transform:uppercase;color:var(--muted)}
+.t-meta{font:var(--fs-xs)/1.5 var(--mono);letter-spacing:var(--tracking-label);color:var(--muted)}
+.t-caption{font-size:var(--fs-xs);line-height:1.5}
+.t-body-sm{font-size:var(--fs-sm);line-height:1.7}
+.t-body{font-size:var(--fs-md);line-height:1.5}
+.t-title{font:400 var(--fs-2xl)/1.2 var(--serif);letter-spacing:-.6px}
+.t-heading{font:400 var(--fs-3xl)/1.05 var(--serif);letter-spacing:var(--tracking-display)}
+.t-display{font:400 var(--fs-4xl)/1.03 var(--serif);letter-spacing:var(--tracking-display)}
+@media(max-width:560px){:root{--page-gutter:var(--space-16)}}

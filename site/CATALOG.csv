@@ -1,0 +1,61 @@
+id,name,category,model,transparent_png,triangles,vertices,mesh_parts,bytes,material_slots
+dome-lamp,Dome lamp,Desk,models/dome-lamp.glb,renders/dome-lamp.png,58144,29994,7,1425520,accent | body | metal | paper | rubber
+task-lamp,Task lamp,Desk,models/task-lamp.glb,renders/task-lamp.png,96096,50400,19,2380640,accent | body | ink | metal | paper | rubber | secondary
+pencil-cup,Pencil cup,Desk,models/pencil-cup.glb,renders/pencil-cup.png,47520,25201,14,1189600,accent | ink | metal | paper | rubber | secondary
+stapler,Stapler,Desk,models/stapler.glb,renders/stapler.png,99624,54768,27,2533756,accent | ink | metal | rubber
+pocket-notebook,Pocket notebook,Desk,models/pocket-notebook.glb,renders/pocket-notebook.png,230320,129042,139,5994712,accent | body | fabric | paper | secondary
+calculator,Calculator,Desk,models/calculator.glb,renders/calculator.png,190744,105678,50,4870208,accent | body | ink | lens | rubber | secondary
+tape-dispenser,Tape dispenser,Desk,models/tape-dispenser.glb,renders/tape-dispenser.png,84600,46150,32,2152428,body | metal | paper | rubber | secondary
+alarm-clock,Alarm clock,Desk,models/alarm-clock.glb,renders/alarm-clock.png,296400,163142,74,7536676,accent | ink | metal | paper | secondary
+sand-timer,Sand timer,Desk,models/sand-timer.glb,renders/sand-timer.png,75008,39120,24,1863712,glass | metal | rubber | sand | secondary
+fountain-pen,Fountain pen,Desk,models/fountain-pen.glb,renders/fountain-pen.png,49720,26132,11,1235636,accent | ink | metal | secondary
+rangefinder-camera,Studio camera,Devices,models/rangefinder-camera.glb,renders/rangefinder-camera.png,280220,151090,89,7069912,accent | body | circuit | glass | ink | lens | metal | paper | rubber | secondary
+portable-radio,Portable radio,Devices,models/portable-radio.glb,renders/portable-radio.png,112032,63501,29,2896248,accent | body | ink | leather | lens | metal | paper | rubber | secondary
+over-ear-headphones,Headphones,Devices,models/over-ear-headphones.glb,renders/over-ear-headphones.png,55744,29088,10,1378520,accent | body | fabric | ink | leather | rubber
+game-controller,Game controller,Devices,models/game-controller.glb,renders/game-controller.png,74352,39713,18,1864608,accent | body | ink | rubber | secondary
+bookshelf-speaker,Bookshelf speaker,Devices,models/bookshelf-speaker.glb,renders/bookshelf-speaker.png,79376,42417,21,1990212,accent | ink | metal | rubber | secondary
+desktop-display,Desktop display,Devices,models/desktop-display.glb,renders/desktop-display.png,91416,50264,24,2329388,accent | body | ink | lens | metal | rubber | secondary
+mechanical-keyboard,Keyboard,Devices,models/mechanical-keyboard.glb,renders/mechanical-keyboard.png,303672,168784,79,7770160,accent | body | circuit | ink | metal | rubber | secondary
+pocket-console,Pocket console,Devices,models/pocket-console.glb,renders/pocket-console.png,75888,41936,20,1937036,accent | circuit | ink | lens | rubber | secondary
+studio-microphone,Studio microphone,Devices,models/studio-microphone.glb,renders/studio-microphone.png,54904,31888,14,1439364,accent | ink | metal | rubber | secondary
+web-camera,Web camera,Devices,models/web-camera.glb,renders/web-camera.png,36104,19404,9,909188,accent | body | glass | ink | lens | metal
+pour-over-kettle,Pour-over kettle,Kitchen,models/pour-over-kettle.glb,renders/pour-over-kettle.png,58368,30387,14,1446264,body | ink | metal | rubber | secondary | water
+stovetop-brewer,Stovetop brewer,Kitchen,models/stovetop-brewer.glb,renders/stovetop-brewer.png,67712,35553,16,1680704,ink | metal | rubber | secondary
+two-slot-toaster,Toaster,Kitchen,models/two-slot-toaster.glb,renders/two-slot-toaster.png,47336,25985,43,1234960,accent | body | crumb | crust | ink | metal | rubber | secondary | toast
+lidded-pot,Lidded pot,Kitchen,models/lidded-pot.glb,renders/lidded-pot.png,64864,33706,12,1599116,accent | body | metal | secondary
+countertop-blender,Blender,Kitchen,models/countertop-blender.glb,renders/countertop-blender.png,85240,45862,22,2144000,accent | body | glass | ink | metal | rubber
+espresso-cup,Espresso cup,Kitchen,models/espresso-cup.glb,renders/espresso-cup.png,40896,21379,8,1012980,body | coffee | metal | sand | secondary
+insulated-bottle,Insulated bottle,Kitchen,models/insulated-bottle.glb,renders/insulated-bottle.png,46496,24225,8,1147932,accent | metal | rubber | secondary
+citrus-press,Citrus press,Kitchen,models/citrus-press.glb,renders/citrus-press.png,136800,75090,31,3470752,accent | body | ink | secondary
+kitchen-scale,Kitchen scale,Kitchen,models/kitchen-scale.glb,renders/kitchen-scale.png,209832,115364,53,5334552,accent | body | glass | ink | metal | paper | rubber | secondary
+pepper-mill,Pepper mill,Kitchen,models/pepper-mill.glb,renders/pepper-mill.png,94272,49266,19,2331116,metal | secondary
+shopping-tote,Shopping tote,Commerce,models/shopping-tote.glb,renders/shopping-tote.png,31320,16928,8,791088,body | secondary
+ribbon-gift,Ribbon gift,Commerce,models/ribbon-gift.glb,renders/ribbon-gift.png,37888,20852,11,966468,accent | body | paper | secondary
+payment-terminal,Payment terminal,Commerce,models/payment-terminal.glb,renders/payment-terminal.png,91528,50283,26,2331516,accent | body | circuit | ink | lens | metal | rubber | secondary
+delivery-parcel,Delivery parcel,Commerce,models/delivery-parcel.glb,renders/delivery-parcel.png,86216,47956,24,2207316,body | ink | paper | secondary
+market-basket,Market basket,Commerce,models/market-basket.glb,renders/market-basket.png,151856,84407,40,3882972,accent | body | metal | secondary
+price-tag,Price tag,Commerce,models/price-tag.glb,renders/price-tag.png,20032,10720,6,505112,accent | body | metal | paper | secondary
+coin-stack,Coin stack,Commerce,models/coin-stack.glb,renders/coin-stack.png,134880,73074,51,3417120,accent | metal
+store-awning,Storefront,Commerce,models/store-awning.glb,renders/store-awning.png,65496,36480,24,1683720,accent | body | lens | metal | paper | secondary
+receipt-printer,Receipt printer,Commerce,models/receipt-printer.glb,renders/receipt-printer.png,65784,36242,19,1678280,accent | ink | paper | rubber | secondary
+piggy-bank,Piggy bank,Commerce,models/piggy-bank.glb,renders/piggy-bank.png,45664,24207,15,1142892,accent | ink | metal | secondary
+cabin-suitcase,Cabin suitcase,Travel,models/cabin-suitcase.glb,renders/cabin-suitcase.png,74560,40367,22,1884304,body | ink | metal | rubber | secondary
+weekend-backpack,Backpack,Travel,models/weekend-backpack.glb,renders/weekend-backpack.png,26472,14656,11,682420,accent | body | fabric | ink | metal | rubber | secondary
+binoculars,Binoculars,Travel,models/binoculars.glb,renders/binoculars.png,74192,39026,15,1841628,body | glass | lens | metal | rubber | secondary
+pocket-compass,Pocket compass,Travel,models/pocket-compass.glb,renders/pocket-compass.png,224288,123840,57,5712612,accent | glass | ink | metal | paper
+camp-lantern,Camp lantern,Travel,models/camp-lantern.glb,renders/camp-lantern.png,92992,50380,23,2346148,glass | ink | metal | paper | rubber | secondary
+travel-mug,Travel mug,Travel,models/travel-mug.glb,renders/travel-mug.png,32448,17237,7,810356,accent | ink | rubber | secondary
+passport-wallet,Passport wallet,Travel,models/passport-wallet.glb,renders/passport-wallet.png,250808,141704,235,6640728,accent | body | ink | leather | metal | paper | secondary
+folding-sunglasses,Sunglasses,Travel,models/folding-sunglasses.glb,renders/folding-sunglasses.png,35936,19115,9,899296,accent | lens | metal
+sun-cap,Sun cap,Travel,models/sun-cap.glb,renders/sun-cap.png,61056,31565,12,1503164,accent | body | fabric | secondary
+key-fob,Key fob,Travel,models/key-fob.glb,renders/key-fob.png,37360,20332,11,947120,body | leather | metal
+orbit-sculpture,Orbit sculpture,Play,models/orbit-sculpture.glb,renders/orbit-sculpture.png,38816,20291,7,961116,accent | body | metal | secondary
+stacking-rings,Stacking rings,Play,models/stacking-rings.glb,renders/stacking-rings.png,73376,37812,8,1796780,accent | body | secondary
+little-rocket,Little rocket,Play,models/little-rocket.glb,renders/little-rocket.png,84880,44339,18,2105252,accent | body | flame | flamecore | glass | lens | metal | secondary
+rubber-duck,Rubber duck,Play,models/rubber-duck.glb,renders/rubber-duck.png,33760,17578,7,836004,accent | body | ink | rubber | secondary
+tiny-robot,Tiny robot,Play,models/tiny-robot.glb,renders/tiny-robot.png,73200,39407,22,1845620,accent | body | ink | metal | paper | secondary
+cloud-sculpture,Cloud sculpture,Play,models/cloud-sculpture.glb,renders/cloud-sculpture.png,28400,14823,4,701716,body | metal | secondary
+ceramic-rainbow,Ceramic rainbow,Play,models/ceramic-rainbow.glb,renders/ceramic-rainbow.png,23472,12639,10,595528,accent | body | secondary
+flower-vase,Flower vase,Play,models/flower-vase.glb,renders/flower-vase.png,77984,40211,10,1912536,accent | metal | secondary
+wind-up-bird,Wind-up bird,Play,models/wind-up-bird.glb,renders/wind-up-bird.png,51072,27024,13,1274056,accent | body | ink | metal | secondary
+balance-mobile,Balance mobile,Play,models/balance-mobile.glb,renders/balance-mobile.png,34752,18273,8,864872,accent | body | metal | secondary

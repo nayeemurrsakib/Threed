@@ -1,0 +1,11 @@
+{
+  "objects": 60,
+  "noGenericExplosions": true,
+  "fixedAttachments": true,
+  "frameRateInvariantSpring": true,
+  "continuousKeyWave": true,
+  "sandTransfersDownward": true,
+  "toasts": 2,
+  "clockGlassRemoved": true,
+  "frontFitsAndPenBorePresent": true
+}

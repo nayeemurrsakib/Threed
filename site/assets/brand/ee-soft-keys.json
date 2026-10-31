@@ -1,0 +1,34 @@
+{
+  "id": "ee-soft-keys",
+  "name": "threed\u00ae Soft keys EE",
+  "category": "Brand identity",
+  "description": "Approved Soft keys direction: paired smiling EE glyphs with warm orange caps, a darker orange edge and ivory bases.",
+  "model": "assets/brand/ee-soft-keys.glb",
+  "thumbnail": "previews/ee-soft-keys.png",
+  "dimensions": [
+    2.0,
+    1.0028,
+    0.395
+  ],
+  "triangles": 137982,
+  "vertices": 68991,
+  "parts": 6,
+  "bytes": 3318924,
+  "materialSlots": [
+    "accent",
+    "paper",
+    "secondary"
+  ],
+  "preferredPalette": null,
+  "study": null,
+  "qualityStandard": null,
+  "assemblies": [
+    "Left ee",
+    "Right ee"
+  ],
+  "interaction": "A gentle idle smile; hover to lift the lip corners and squint the crescent eyes.",
+  "hint": null,
+  "reviewStatus": "approved-for-site-integration",
+  "source": "branding/source/build_header_mark.py",
+  "approvedDirection": "Soft keys"
+}

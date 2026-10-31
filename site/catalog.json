@@ -1,0 +1,2301 @@
+{
+  "name": "threed\u00ae",
+  "volume": "01",
+  "version": "0.7.0",
+  "stage": "Purposeful interaction studies",
+  "assetCount": 60,
+  "categories": [
+    "Desk",
+    "Devices",
+    "Kitchen",
+    "Commerce",
+    "Travel",
+    "Play"
+  ],
+  "defaultPalette": {
+    "body": "#e8e4d8",
+    "accent": "#e66e45",
+    "secondary": "#9ebaaa",
+    "ink": "#293330",
+    "metal": "#b4a078",
+    "lens": "#17272a",
+    "paper": "#f5eddb",
+    "rubber": "#444844"
+  },
+  "assets": [
+    {
+      "id": "dome-lamp",
+      "name": "Dome lamp",
+      "category": "Desk",
+      "description": "Double-walled enamel dome, opal diffuser, light engine and a continuous flared ceramic pedestal.",
+      "model": "models/dome-lamp.glb",
+      "thumbnail": "previews/dome-lamp.png",
+      "dimensions": [
+        1.828,
+        2.0,
+        1.828
+      ],
+      "triangles": 58144,
+      "vertices": 29994,
+      "parts": 7,
+      "bytes": 1425520,
+      "materialSlots": [
+        "accent",
+        "body",
+        "metal",
+        "paper",
+        "rubber"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Ceramic pedestal",
+        "Silicone foot",
+        "Opal diffuser / Light engine",
+        "Hollow enamel shade",
+        "Shade finial"
+      ],
+      "interaction": "Warm the lamp light",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "task-lamp",
+      "name": "Task lamp",
+      "category": "Desk",
+      "description": "Articulated desk light with two pivot joints.",
+      "model": "models/task-lamp.glb",
+      "thumbnail": "previews/task-lamp.png",
+      "dimensions": [
+        1.6252,
+        2.0,
+        1.3978
+      ],
+      "triangles": 96096,
+      "vertices": 50400,
+      "parts": 19,
+      "bytes": 2380640,
+      "materialSlots": [
+        "accent",
+        "body",
+        "ink",
+        "metal",
+        "paper",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Weighted base",
+        "Lower arm",
+        "Upper arm",
+        "Reflector shade / Lamp diffuser"
+      ],
+      "interaction": "Gently aim the lamp shade",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "pencil-cup",
+      "name": "Pencil cup",
+      "category": "Desk",
+      "description": "Open ceramic vessel with three contrasting writing tools.",
+      "model": "models/pencil-cup.glb",
+      "thumbnail": "previews/pencil-cup.png",
+      "dimensions": [
+        0.9379,
+        2.0,
+        0.9379
+      ],
+      "triangles": 47520,
+      "vertices": 25201,
+      "parts": 14,
+      "bytes": 1189600,
+      "materialSlots": [
+        "accent",
+        "ink",
+        "metal",
+        "paper",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Glazed cup",
+        "Colored pencil",
+        "Mechanical pencil",
+        "Fineliner"
+      ],
+      "interaction": "A small movement of the pencils in their cup",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "stapler",
+      "name": "Stapler",
+      "category": "Desk",
+      "description": "Weighted desktop stapler with a visible hinge and metal jaw.",
+      "model": "models/stapler.glb",
+      "thumbnail": "previews/stapler.png",
+      "dimensions": [
+        2.0,
+        0.7162,
+        0.7581
+      ],
+      "triangles": 99624,
+      "vertices": 54768,
+      "parts": 27,
+      "bytes": 2533756,
+      "materialSlots": [
+        "accent",
+        "ink",
+        "metal",
+        "rubber"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Weighted lower shell",
+        "Staple magazine",
+        "Sculpted upper lever",
+        "Hinge pin",
+        "Anvil"
+      ],
+      "interaction": "Gently press the stapler lever",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "pocket-notebook",
+      "name": "Pocket notebook",
+      "category": "Desk",
+      "description": "A thread-bound notebook with a cloth cover, rounded paper leaves and a sequential page turn at the spine.",
+      "model": "models/pocket-notebook.glb",
+      "thumbnail": "previews/pocket-notebook.png",
+      "dimensions": [
+        1.3444,
+        0.2964,
+        2.0
+      ],
+      "triangles": 230320,
+      "vertices": 129042,
+      "parts": 139,
+      "bytes": 5994712,
+      "materialSlots": [
+        "accent",
+        "body",
+        "fabric",
+        "paper",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Back cover",
+        "Sewn signatures",
+        "Open reading page",
+        "Cloth spine and binding",
+        "Turning leaf 1",
+        "Turning leaf 2",
+        "Turning leaf 3",
+        "Front cover",
+        "Ribbon bookmark"
+      ],
+      "interaction": "Gently lift the cover and flutter the bound pages",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "calculator",
+      "name": "Calculator",
+      "category": "Desk",
+      "description": "A fitted rounded calculator with a stationary display and individually animated tactile keys.",
+      "model": "models/calculator.glb",
+      "thumbnail": "previews/calculator.png",
+      "dimensions": [
+        1.2994,
+        0.5357,
+        2.0
+      ],
+      "triangles": 190744,
+      "vertices": 105678,
+      "parts": 50,
+      "bytes": 4870208,
+      "materialSlots": [
+        "accent",
+        "body",
+        "ink",
+        "lens",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Closed calculator case",
+        "Recessed LCD",
+        "Key 1-1",
+        "Key 1-2",
+        "Key 1-3",
+        "Key 2-1",
+        "Key 2-2",
+        "Key 2-3",
+        "Key 3-1",
+        "Key 3-2",
+        "Key 3-3",
+        "Key 4-1",
+        "Key 4-2",
+        "Key 4-3"
+      ],
+      "interaction": "A flowing wave across the keys",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "tape-dispenser",
+      "name": "Tape dispenser",
+      "category": "Desk",
+      "description": "A weighted dispenser with a rotating paper core, connected tape feed and fixed serrated cutter.",
+      "model": "models/tape-dispenser.glb",
+      "thumbnail": "previews/tape-dispenser.png",
+      "dimensions": [
+        2.0,
+        0.9899,
+        0.5926
+      ],
+      "triangles": 84600,
+      "vertices": 46150,
+      "parts": 32,
+      "bytes": 2152428,
+      "materialSlots": [
+        "body",
+        "metal",
+        "paper",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Weighted enamel base",
+        "Turning tape roll",
+        "Connected feed span",
+        "Unrolling tape tail",
+        "Fixed serrated cutter"
+      ],
+      "interaction": "Unroll a connected length of tape",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "alarm-clock",
+      "name": "Alarm clock",
+      "category": "Desk",
+      "description": "A rounded twin-bell clock with a clear uncovered dial, moving hands and attached ringing bells.",
+      "model": "models/alarm-clock.glb",
+      "thumbnail": "previews/alarm-clock.png",
+      "dimensions": [
+        1.5087,
+        2.0,
+        0.6288
+      ],
+      "triangles": 296400,
+      "vertices": 163142,
+      "parts": 74,
+      "bytes": 7536676,
+      "materialSlots": [
+        "accent",
+        "ink",
+        "metal",
+        "paper",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Clock case and legs",
+        "Exposed clock dial",
+        "Hour hand",
+        "Minute hand",
+        "Hand spindle",
+        "Fixed bell supports",
+        "Left ringing bell",
+        "Right ringing bell",
+        "Oscillating alarm hammer"
+      ],
+      "interaction": "The hands turn and the alarm bells ring",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "sand-timer",
+      "name": "Sand timer",
+      "category": "Desk",
+      "description": "A fitted blown-glass hourglass with fixed support rods and a visible stream transferring sand between chambers.",
+      "model": "models/sand-timer.glb",
+      "thumbnail": "previews/sand-timer.png",
+      "dimensions": [
+        1.0755,
+        2.0,
+        1.0755
+      ],
+      "triangles": 75008,
+      "vertices": 39120,
+      "parts": 24,
+      "bytes": 1863712,
+      "materialSlots": [
+        "glass",
+        "metal",
+        "rubber",
+        "sand",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Fixed turned frame",
+        "Fitted glass vessel",
+        "Draining upper sand",
+        "Growing lower sand",
+        "Falling sand stream",
+        "Falling grain 1",
+        "Falling grain 2",
+        "Falling grain 3",
+        "Falling grain 4",
+        "Falling grain 5",
+        "Falling grain 6",
+        "Falling grain 7",
+        "Falling grain 8",
+        "Falling grain 9",
+        "Falling grain 10",
+        "Falling grain 11",
+        "Falling grain 12",
+        "Falling grain 13"
+      ],
+      "interaction": "Sand drains through the neck into the lower chamber",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "fountain-pen",
+      "name": "Fountain pen",
+      "category": "Desk",
+      "description": "A complete fountain pen with its nib and feed seated in a hollow barrel, beside its fitted open cap.",
+      "model": "models/fountain-pen.glb",
+      "thumbnail": "previews/fountain-pen.png",
+      "dimensions": [
+        0.8317,
+        2.0,
+        0.4897
+      ],
+      "triangles": 49720,
+      "vertices": 26132,
+      "parts": 11,
+      "bytes": 1235636,
+      "materialSlots": [
+        "accent",
+        "ink",
+        "metal",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Assembled writing pen",
+        "Fitted open pen cap"
+      ],
+      "interaction": "Gently lean the assembled pen as if writing",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "rangefinder-camera",
+      "name": "Studio camera",
+      "category": "Devices",
+      "description": "A hollow pearl camera with a sculpted front cover, periwinkle optical assembly, glass elements and a removable film cartridge.",
+      "model": "models/rangefinder-camera.glb",
+      "thumbnail": "previews/rangefinder-camera.png",
+      "dimensions": [
+        1.6238,
+        2.0,
+        0.9299
+      ],
+      "triangles": 280220,
+      "vertices": 151090,
+      "parts": 89,
+      "bytes": 7069912,
+      "materialSlots": [
+        "accent",
+        "body",
+        "circuit",
+        "glass",
+        "ink",
+        "lens",
+        "metal",
+        "paper",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": "camera-finish-v04",
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Rear ceramic housing",
+        "Rear-panel gasket",
+        "Inner chassis",
+        "Film cartridge",
+        "Front sculpted cover",
+        "Shutter press",
+        "Optical mount",
+        "Focus sleeve / Optical glass",
+        "Top cap"
+      ],
+      "interaction": "Gently focus the lens and press the shutter",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "approved-benchmark"
+    },
+    {
+      "id": "portable-radio",
+      "name": "Portable radio",
+      "category": "Devices",
+      "description": "A rounded radio with a matching-radius fitted front, perforated speaker, rotating tuning dial and telescoping antenna.",
+      "model": "models/portable-radio.glb",
+      "thumbnail": "previews/portable-radio.png",
+      "dimensions": [
+        1.8132,
+        2.0,
+        0.6466
+      ],
+      "triangles": 112032,
+      "vertices": 63501,
+      "parts": 29,
+      "bytes": 2896248,
+      "materialSlots": [
+        "accent",
+        "body",
+        "ink",
+        "leather",
+        "lens",
+        "metal",
+        "paper",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Fitted rounded enclosure",
+        "Fitted speaker grille",
+        "Inset tuner display",
+        "Sliding tuner needle",
+        "Fixed dial collar",
+        "Turning tuning dial",
+        "Attached carrying handle and antenna socket",
+        "Extending antenna",
+        "Attached rubber feet"
+      ],
+      "interaction": "Turn the tuner and extend the antenna",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "over-ear-headphones",
+      "name": "Headphones",
+      "category": "Devices",
+      "description": "Over-ear headphones with a directly attached padded headband, soft oval cushions and swiveling cups; no exposed decorative forks.",
+      "model": "models/over-ear-headphones.glb",
+      "thumbnail": "previews/over-ear-headphones.png",
+      "dimensions": [
+        2.0,
+        1.7298,
+        0.6393
+      ],
+      "triangles": 55744,
+      "vertices": 29088,
+      "parts": 10,
+      "bytes": 1378520,
+      "materialSlots": [
+        "accent",
+        "body",
+        "fabric",
+        "ink",
+        "leather",
+        "rubber"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Connected padded headband",
+        "Left connected swiveling cup",
+        "Right connected swiveling cup"
+      ],
+      "interaction": "The attached earcups swivel to fit",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "game-controller",
+      "name": "Game controller",
+      "category": "Devices",
+      "description": "A continuous sculpted gamepad shell with seated buttons, tilting analog sticks and pressing triggers.",
+      "model": "models/game-controller.glb",
+      "thumbnail": "previews/game-controller.png",
+      "dimensions": [
+        2.0,
+        1.1334,
+        0.7145
+      ],
+      "triangles": 74352,
+      "vertices": 39713,
+      "parts": 18,
+      "bytes": 1864608,
+      "materialSlots": [
+        "accent",
+        "body",
+        "ink",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Continuous controller shell",
+        "Analog socket 1",
+        "Tilting stick 1",
+        "Analog socket 2",
+        "Tilting stick 2",
+        "Seated direction pad",
+        "Pressing action button 1",
+        "Pressing action button 2",
+        "Pressing action button 3",
+        "Pressing action button 4",
+        "Pressing shoulder trigger 1",
+        "Pressing shoulder trigger 2",
+        "Status light"
+      ],
+      "interaction": "Move the sticks and press the controls",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "bookshelf-speaker",
+      "name": "Bookshelf speaker",
+      "category": "Devices",
+      "description": "Compact two-way speaker with concentric drivers and a status light.",
+      "model": "models/bookshelf-speaker.glb",
+      "thumbnail": "previews/bookshelf-speaker.png",
+      "dimensions": [
+        1.2727,
+        2.0,
+        1.0345
+      ],
+      "triangles": 79376,
+      "vertices": 42417,
+      "parts": 21,
+      "bytes": 1990212,
+      "materialSlots": [
+        "accent",
+        "ink",
+        "metal",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Rounded speaker cabinet",
+        "Acoustic baffle",
+        "Woofer basket",
+        "Vibrating speaker cone",
+        "Tweeter assembly",
+        "Cabinet feet",
+        "Fasteners and status"
+      ],
+      "interaction": "A gentle bass bounce of the cone and flexible surround",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "desktop-display",
+      "name": "Desktop display",
+      "category": "Devices",
+      "description": "Freestanding display with inset screen, neck and heavy foot.",
+      "model": "models/desktop-display.glb",
+      "thumbnail": "previews/desktop-display.png",
+      "dimensions": [
+        2.0,
+        1.8742,
+        1.027
+      ],
+      "triangles": 91416,
+      "vertices": 50264,
+      "parts": 24,
+      "bytes": 2329388,
+      "materialSlots": [
+        "accent",
+        "body",
+        "ink",
+        "lens",
+        "metal",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Weighted foot",
+        "Stand and hinge",
+        "Rear display enclosure / LCD module / Edge frame"
+      ],
+      "interaction": "Gently tilt the screen on its hinge",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "mechanical-keyboard",
+      "name": "Keyboard",
+      "category": "Devices",
+      "description": "Low-profile 40-key keyboard with a contrasting spacebar.",
+      "model": "models/mechanical-keyboard.glb",
+      "thumbnail": "previews/mechanical-keyboard.png",
+      "dimensions": [
+        2.0,
+        0.3901,
+        0.8687
+      ],
+      "triangles": 303672,
+      "vertices": 168784,
+      "parts": 79,
+      "bytes": 7770160,
+      "materialSlots": [
+        "accent",
+        "body",
+        "circuit",
+        "ink",
+        "metal",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Aluminum lower tray",
+        "PCB and switch plate",
+        "Mechanical switches",
+        "Sculpted keycaps 1",
+        "Sculpted keycaps 2",
+        "Sculpted keycaps 3",
+        "Sculpted keycaps 4",
+        "Sculpted keycaps 5",
+        "Sculpted keycaps 6",
+        "Sculpted keycaps 7",
+        "Sculpted keycaps 8",
+        "Sculpted keycaps 9",
+        "Sculpted keycaps 10",
+        "Sculpted keycaps 11",
+        "Sculpted keycaps 12",
+        "Sculpted keycaps 13",
+        "Sculpted keycaps 14",
+        "Sculpted keycaps 15",
+        "Sculpted keycaps 16",
+        "Sculpted keycaps 17",
+        "Sculpted keycaps 18",
+        "Sculpted keycaps 19",
+        "Sculpted keycaps 20",
+        "Sculpted keycaps 21",
+        "Sculpted keycaps 22",
+        "Sculpted keycaps 23",
+        "Sculpted keycaps 24",
+        "Sculpted keycaps 25",
+        "Sculpted keycaps 26",
+        "Sculpted keycaps 27",
+        "Sculpted keycaps 28",
+        "Sculpted keycaps 29",
+        "Sculpted keycaps 30",
+        "Sculpted keycaps 31",
+        "Sculpted keycaps 32",
+        "Sculpted keycaps 33",
+        "Sculpted keycaps 34",
+        "Sculpted keycaps 35",
+        "Sculpted keycaps 36",
+        "USB connector"
+      ],
+      "interaction": "A gentle wave of key presses",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "pocket-console",
+      "name": "Pocket console",
+      "category": "Devices",
+      "description": "Portrait handheld console with inset screen, D-pad and two action buttons.",
+      "model": "models/pocket-console.glb",
+      "thumbnail": "previews/pocket-console.png",
+      "dimensions": [
+        1.2484,
+        2.0,
+        0.4013
+      ],
+      "triangles": 75888,
+      "vertices": 41936,
+      "parts": 20,
+      "bytes": 1937036,
+      "materialSlots": [
+        "accent",
+        "circuit",
+        "ink",
+        "lens",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Rear enclosure",
+        "Logic board",
+        "Display unit",
+        "Control face",
+        "D-pad and action keys 1",
+        "D-pad and action keys 2",
+        "D-pad and action keys 3",
+        "D-pad and action keys 4",
+        "D-pad and action keys 5",
+        "D-pad and action keys 6"
+      ],
+      "interaction": "Gently press the console controls",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "studio-microphone",
+      "name": "Studio microphone",
+      "category": "Devices",
+      "description": "Capsule microphone on a desktop stand with a yoke and grille.",
+      "model": "models/studio-microphone.glb",
+      "thumbnail": "previews/studio-microphone.png",
+      "dimensions": [
+        1.1347,
+        2.0,
+        1.1347
+      ],
+      "triangles": 54904,
+      "vertices": 31888,
+      "parts": 14,
+      "bytes": 1439364,
+      "materialSlots": [
+        "accent",
+        "ink",
+        "metal",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Weighted desktop base",
+        "Stand and yoke",
+        "Microphone body / Condenser capsule / Perforated grille"
+      ],
+      "interaction": "Gently tilt the microphone in its yoke",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "web-camera",
+      "name": "Web camera",
+      "category": "Devices",
+      "description": "A capsule webcam with a fitted dark optical front and an attached pivoting head on a monitor clip.",
+      "model": "models/web-camera.glb",
+      "thumbnail": "previews/web-camera.png",
+      "dimensions": [
+        2.0,
+        1.4052,
+        0.8376
+      ],
+      "triangles": 36104,
+      "vertices": 19404,
+      "parts": 9,
+      "bytes": 909188,
+      "materialSlots": [
+        "accent",
+        "body",
+        "glass",
+        "ink",
+        "lens",
+        "metal"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Monitor clip and hinge",
+        "Attached aiming camera head"
+      ],
+      "interaction": "The webcam tilts to frame the view",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "pour-over-kettle",
+      "name": "Pour-over kettle",
+      "category": "Kitchen",
+      "description": "A hollow enamel kettle that pours with its handle, spout and fitted lid remaining attached.",
+      "model": "models/pour-over-kettle.glb",
+      "thumbnail": "previews/pour-over-kettle.png",
+      "dimensions": [
+        2.0,
+        1.6601,
+        1.274
+      ],
+      "triangles": 58368,
+      "vertices": 30387,
+      "parts": 14,
+      "bytes": 1446264,
+      "materialSlots": [
+        "body",
+        "ink",
+        "metal",
+        "rubber",
+        "secondary",
+        "water"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Intact pouring kettle",
+        "Pouring water",
+        "Water drop 1",
+        "Water drop 2",
+        "Water drop 3",
+        "Water drop 4"
+      ],
+      "interaction": "Tilt the kettle and pour from its spout",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "stovetop-brewer",
+      "name": "Stovetop brewer",
+      "category": "Kitchen",
+      "description": "Hollow lower chamber, filter basket and upper collector with a pouring spout and fitted lid.",
+      "model": "models/stovetop-brewer.glb",
+      "thumbnail": "previews/stovetop-brewer.png",
+      "dimensions": [
+        1.8574,
+        2.0,
+        1.2412
+      ],
+      "triangles": 67712,
+      "vertices": 35553,
+      "parts": 16,
+      "bytes": 1680704,
+      "materialSlots": [
+        "ink",
+        "metal",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Lower pressure chamber",
+        "Filter basket",
+        "Upper collecting chamber",
+        "Hinged lid",
+        "Safety valve"
+      ],
+      "interaction": "Gently lift the hinged brewer lid",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "two-slot-toaster",
+      "name": "Toaster",
+      "category": "Kitchen",
+      "description": "A rounded two-slot toaster with real slot openings, a connected lever and two rising slices of toast.",
+      "model": "models/two-slot-toaster.glb",
+      "thumbnail": "previews/two-slot-toaster.png",
+      "dimensions": [
+        2.0,
+        1.1463,
+        1.009
+      ],
+      "triangles": 47336,
+      "vertices": 25985,
+      "parts": 43,
+      "bytes": 1234960,
+      "materialSlots": [
+        "accent",
+        "body",
+        "crumb",
+        "crust",
+        "ink",
+        "metal",
+        "rubber",
+        "secondary",
+        "toast"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Closed enamel toaster",
+        "Fitted metal slot deck",
+        "Browning dial and lever guide",
+        "Popping lever",
+        "Popping toast slice 1",
+        "Popping toast slice 2"
+      ],
+      "interaction": "Two slices of toast pop up",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "lidded-pot",
+      "name": "Lidded pot",
+      "category": "Kitchen",
+      "description": "An open enamel cooking pot with fixed side handles, a seated rolled rim and a lifting lid with its knob attached.",
+      "model": "models/lidded-pot.glb",
+      "thumbnail": "previews/lidded-pot.png",
+      "dimensions": [
+        2.0,
+        1.0629,
+        1.4067
+      ],
+      "triangles": 64864,
+      "vertices": 33706,
+      "parts": 12,
+      "bytes": 1599116,
+      "materialSlots": [
+        "accent",
+        "body",
+        "metal",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Hollow enamel body",
+        "Side handles",
+        "Rolled rim",
+        "Lid with attached knob"
+      ],
+      "interaction": "Lift the fitted lid; handles stay attached",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "countertop-blender",
+      "name": "Blender",
+      "category": "Kitchen",
+      "description": "Transparent hollow pitcher with separate blades, drive collar, lid and a rounded motor enclosure.",
+      "model": "models/countertop-blender.glb",
+      "thumbnail": "previews/countertop-blender.png",
+      "dimensions": [
+        1.4413,
+        2.0,
+        1.0765
+      ],
+      "triangles": 85240,
+      "vertices": 45862,
+      "parts": 22,
+      "bytes": 2144000,
+      "materialSlots": [
+        "accent",
+        "body",
+        "glass",
+        "ink",
+        "metal",
+        "rubber"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Rounded motor enclosure",
+        "Motor enclosure top",
+        "Drive collar",
+        "Glass jar",
+        "Blade assembly",
+        "Sealed lid"
+      ],
+      "interaction": "Spin the blades inside the closed blender",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "espresso-cup",
+      "name": "Espresso cup",
+      "category": "Kitchen",
+      "description": "Thick ceramic cup, saucer and visible coffee surface.",
+      "model": "models/espresso-cup.glb",
+      "thumbnail": "previews/espresso-cup.png",
+      "dimensions": [
+        2.0,
+        0.8758,
+        2.0
+      ],
+      "triangles": 40896,
+      "vertices": 21379,
+      "parts": 8,
+      "bytes": 1012980,
+      "materialSlots": [
+        "body",
+        "coffee",
+        "metal",
+        "sand",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Glazed saucer",
+        "Hollow porcelain cup / Coffee and crema",
+        "Spoon"
+      ],
+      "interaction": "Slightly lift the cup from its saucer",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "insulated-bottle",
+      "name": "Insulated bottle",
+      "category": "Kitchen",
+      "description": "A hollow insulated bottle with an unscrewing fitted lid and a complete upward-arched carrying loop.",
+      "model": "models/insulated-bottle.glb",
+      "thumbnail": "previews/insulated-bottle.png",
+      "dimensions": [
+        0.8438,
+        2.0,
+        0.8438
+      ],
+      "triangles": 46496,
+      "vertices": 24225,
+      "parts": 8,
+      "bytes": 1147932,
+      "materialSlots": [
+        "accent",
+        "metal",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Vacuum bottle",
+        "Silicone boot",
+        "Threaded neck",
+        "Lid and attached carrying loop"
+      ],
+      "interaction": "Unscrew the lid with its carrying loop attached",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "citrus-press",
+      "name": "Citrus press",
+      "category": "Kitchen",
+      "description": "Manual citrus press with a fluted reamer and catch bowl.",
+      "model": "models/citrus-press.glb",
+      "thumbnail": "previews/citrus-press.png",
+      "dimensions": [
+        2.0,
+        1.3485,
+        2.0
+      ],
+      "triangles": 136800,
+      "vertices": 75090,
+      "parts": 31,
+      "bytes": 3470752,
+      "materialSlots": [
+        "accent",
+        "body",
+        "ink",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Catch bowl",
+        "Strainer plate",
+        "Fluted reamer"
+      ],
+      "interaction": "Gently twist the citrus reamer",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "kitchen-scale",
+      "name": "Kitchen scale",
+      "category": "Kitchen",
+      "description": "Mechanical countertop scale with a raised pan and round dial.",
+      "model": "models/kitchen-scale.glb",
+      "thumbnail": "previews/kitchen-scale.png",
+      "dimensions": [
+        2.0,
+        1.8286,
+        2.0
+      ],
+      "triangles": 209832,
+      "vertices": 115364,
+      "parts": 53,
+      "bytes": 5334552,
+      "materialSlots": [
+        "accent",
+        "body",
+        "glass",
+        "ink",
+        "metal",
+        "paper",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Weighted pedestal",
+        "Mechanical casing",
+        "Dial and calibrated face",
+        "Responding scale needle",
+        "Needle and crystal",
+        "Weighing platform"
+      ],
+      "interaction": "The plate dips under weight, softly bounces and settles while the needle responds",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "pepper-mill",
+      "name": "Pepper mill",
+      "category": "Kitchen",
+      "description": "Sculptural pepper grinder with a pinched waist and brass top screw.",
+      "model": "models/pepper-mill.glb",
+      "thumbnail": "previews/pepper-mill.png",
+      "dimensions": [
+        0.9719,
+        2.0,
+        0.9719
+      ],
+      "triangles": 94272,
+      "vertices": 49266,
+      "parts": 19,
+      "bytes": 2331116,
+      "materialSlots": [
+        "metal",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Turned grinder body",
+        "Burr and spindle",
+        "Rounded mill crown / Adjustment screw"
+      ],
+      "interaction": "A small twist of the grinder crown",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "shopping-tote",
+      "name": "Shopping tote",
+      "category": "Commerce",
+      "description": "An open soft canvas tote with a sewn bottom and flat handles that lift together with the bag.",
+      "model": "models/shopping-tote.glb",
+      "thumbnail": "previews/shopping-tote.png",
+      "dimensions": [
+        1.4613,
+        2.0,
+        0.6457
+      ],
+      "triangles": 31320,
+      "vertices": 16928,
+      "parts": 8,
+      "bytes": 791088,
+      "materialSlots": [
+        "body",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Sewn tote and attached handles"
+      ],
+      "interaction": "Lift the tote by its attached handles",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "ribbon-gift",
+      "name": "Ribbon gift",
+      "category": "Commerce",
+      "description": "A fitted gift box with a lifting lid and bow; the ribbon on the box sides remains fixed.",
+      "model": "models/ribbon-gift.glb",
+      "thumbnail": "previews/ribbon-gift.png",
+      "dimensions": [
+        1.7399,
+        2.0,
+        1.7399
+      ],
+      "triangles": 37888,
+      "vertices": 20852,
+      "parts": 11,
+      "bytes": 966468,
+      "materialSlots": [
+        "accent",
+        "body",
+        "paper",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Open gift box",
+        "Folded tissue",
+        "Lid with attached bow",
+        "Satin ribbon"
+      ],
+      "interaction": "Open the gift; the side ribbon stays on the box",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "payment-terminal",
+      "name": "Payment terminal",
+      "category": "Commerce",
+      "description": "Countertop card terminal with a screen and raised payment keys.",
+      "model": "models/payment-terminal.glb",
+      "thumbnail": "previews/payment-terminal.png",
+      "dimensions": [
+        1.2098,
+        0.8259,
+        2.0
+      ],
+      "triangles": 91528,
+      "vertices": 50283,
+      "parts": 26,
+      "bytes": 2331516,
+      "materialSlots": [
+        "accent",
+        "body",
+        "circuit",
+        "ink",
+        "lens",
+        "metal",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Lower terminal enclosure",
+        "Controller board",
+        "Display and face",
+        "Payment keys 1",
+        "Payment keys 2",
+        "Payment keys 3",
+        "Payment keys 4",
+        "Payment keys 5",
+        "Payment keys 6",
+        "Payment keys 7",
+        "Payment keys 8",
+        "Payment keys 9",
+        "Card reader",
+        "Sliding payment card"
+      ],
+      "interaction": "Slide a card in and out while the keys gently wave",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "delivery-parcel",
+      "name": "Delivery parcel",
+      "category": "Commerce",
+      "description": "An opening shipping carton with hinged top flaps, a cut top tape seam and stationary front sealing tape and label.",
+      "model": "models/delivery-parcel.glb",
+      "thumbnail": "previews/delivery-parcel.png",
+      "dimensions": [
+        2.0,
+        1.7278,
+        1.4897
+      ],
+      "triangles": 86216,
+      "vertices": 47956,
+      "parts": 24,
+      "bytes": 2207316,
+      "materialSlots": [
+        "body",
+        "ink",
+        "paper",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Folded carton",
+        "Left inner flap",
+        "Right inner flap",
+        "Rear hinged top flap",
+        "Front hinged top flap",
+        "Paper sealing tape",
+        "Shipping label"
+      ],
+      "interaction": "Gently lift the top flaps; inner flaps and front tape stay fixed",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "market-basket",
+      "name": "Market basket",
+      "category": "Commerce",
+      "description": "Open market basket with vertical slots and a folding arch handle.",
+      "model": "models/market-basket.glb",
+      "thumbnail": "previews/market-basket.png",
+      "dimensions": [
+        2.0,
+        1.9807,
+        1.3285
+      ],
+      "triangles": 151856,
+      "vertices": 84407,
+      "parts": 40,
+      "bytes": 3882972,
+      "materialSlots": [
+        "accent",
+        "body",
+        "metal",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Basket base",
+        "Slotted sidewalls",
+        "Reinforced rim",
+        "Folding handle"
+      ],
+      "interaction": "Gently pivot the basket handle",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "price-tag",
+      "name": "Price tag",
+      "category": "Commerce",
+      "description": "Thick rounded tag with raised circular seal and tied cord.",
+      "model": "models/price-tag.glb",
+      "thumbnail": "previews/price-tag.png",
+      "dimensions": [
+        1.117,
+        2.0,
+        0.1698
+      ],
+      "triangles": 20032,
+      "vertices": 10720,
+      "parts": 6,
+      "bytes": 505112,
+      "materialSlots": [
+        "accent",
+        "body",
+        "metal",
+        "paper",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Tag with attached cord"
+      ],
+      "interaction": "A small swing of the hanging tag",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "coin-stack",
+      "name": "Coin stack",
+      "category": "Commerce",
+      "description": "Two unequal coin stacks with raised face medallions.",
+      "model": "models/coin-stack.glb",
+      "thumbnail": "previews/coin-stack.png",
+      "dimensions": [
+        2.0,
+        0.9701,
+        1.1718
+      ],
+      "triangles": 134880,
+      "vertices": 73074,
+      "parts": 51,
+      "bytes": 3417120,
+      "materialSlots": [
+        "accent",
+        "metal"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Tall stack coin 1",
+        "Tall stack coin 2",
+        "Tall stack coin 3",
+        "Tall stack coin 4",
+        "Tall stack coin 5",
+        "Tall stack coin 6",
+        "Short stack coin 1",
+        "Short stack coin 2",
+        "Short stack coin 3"
+      ],
+      "interaction": "Turn the top coin slightly in place",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "store-awning",
+      "name": "Storefront",
+      "category": "Commerce",
+      "description": "Miniature storefront with striped awning and recessed display window.",
+      "model": "models/store-awning.glb",
+      "thumbnail": "previews/store-awning.png",
+      "dimensions": [
+        2.0,
+        1.7888,
+        1.4884
+      ],
+      "triangles": 65496,
+      "vertices": 36480,
+      "parts": 24,
+      "bytes": 1683720,
+      "materialSlots": [
+        "accent",
+        "body",
+        "lens",
+        "metal",
+        "paper",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Store foundation",
+        "Store shell",
+        "Shopfront glazing",
+        "Hinged shop door",
+        "Striped curved awning"
+      ],
+      "interaction": "Gently open the shop door",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "receipt-printer",
+      "name": "Receipt printer",
+      "category": "Commerce",
+      "description": "A fitted desktop receipt printer that feeds a curled printed sheet through its output slot while the case stays closed.",
+      "model": "models/receipt-printer.glb",
+      "thumbnail": "previews/receipt-printer.png",
+      "dimensions": [
+        2.0,
+        1.7358,
+        1.6604
+      ],
+      "triangles": 65784,
+      "vertices": 36242,
+      "parts": 19,
+      "bytes": 1678280,
+      "materialSlots": [
+        "accent",
+        "ink",
+        "paper",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Closed printer enclosure",
+        "Feeding printed receipt"
+      ],
+      "interaction": "Feed a printed receipt through the slot",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "piggy-bank",
+      "name": "Piggy bank",
+      "category": "Commerce",
+      "description": "Plump ceramic savings pig with four feet and a coin slot.",
+      "model": "models/piggy-bank.glb",
+      "thumbnail": "previews/piggy-bank.png",
+      "dimensions": [
+        2.0,
+        1.8317,
+        1.3581
+      ],
+      "triangles": 45664,
+      "vertices": 24207,
+      "parts": 15,
+      "bytes": 1142892,
+      "materialSlots": [
+        "accent",
+        "ink",
+        "metal",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Glazed ceramic body",
+        "Sculpted snout",
+        "Ears and eye inlays",
+        "Savings slot and coin",
+        "Coin entering savings slot",
+        "Curled tail"
+      ],
+      "interaction": "Nudge a coin into the savings slot",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "cabin-suitcase",
+      "name": "Cabin suitcase",
+      "category": "Travel",
+      "description": "Ribbed hard-shell carry-on with telescoping handle and wheels.",
+      "model": "models/cabin-suitcase.glb",
+      "thumbnail": "previews/cabin-suitcase.png",
+      "dimensions": [
+        1.073,
+        2.0,
+        0.6365
+      ],
+      "triangles": 74560,
+      "vertices": 40367,
+      "parts": 22,
+      "bytes": 1884304,
+      "materialSlots": [
+        "body",
+        "ink",
+        "metal",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Rear suitcase shell",
+        "Front suitcase shell",
+        "Zipper welt",
+        "Telescoping handle",
+        "Spinner wheels"
+      ],
+      "interaction": "Slightly extend the suitcase handle",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "weekend-backpack",
+      "name": "Backpack",
+      "category": "Travel",
+      "description": "Rounded travel backpack with front pocket, top loop and two straps.",
+      "model": "models/weekend-backpack.glb",
+      "thumbnail": "previews/weekend-backpack.png",
+      "dimensions": [
+        1.3359,
+        2.0,
+        1.3346
+      ],
+      "triangles": 26472,
+      "vertices": 14656,
+      "parts": 11,
+      "bytes": 682420,
+      "materialSlots": [
+        "accent",
+        "body",
+        "fabric",
+        "ink",
+        "metal",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Complete sewn backpack"
+      ],
+      "interaction": "Slightly lift the complete backpack",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "binoculars",
+      "name": "Binoculars",
+      "category": "Travel",
+      "description": "Twin optical barrels connected by a center hinge and focus wheel.",
+      "model": "models/binoculars.glb",
+      "thumbnail": "previews/binoculars.png",
+      "dimensions": [
+        2.0,
+        0.9096,
+        1.6394
+      ],
+      "triangles": 74192,
+      "vertices": 39026,
+      "parts": 15,
+      "bytes": 1841628,
+      "materialSlots": [
+        "body",
+        "glass",
+        "lens",
+        "metal",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Bridge and focus",
+        "Focus wheel",
+        "Left optical barrel",
+        "Left objective optics",
+        "Left eyepiece",
+        "Right optical barrel",
+        "Right objective optics",
+        "Right eyepiece"
+      ],
+      "interaction": "Turn the focus wheel slightly",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "pocket-compass",
+      "name": "Pocket compass",
+      "category": "Travel",
+      "description": "Open compass with cardinal markers, floating needle and a carrying ring.",
+      "model": "models/pocket-compass.glb",
+      "thumbnail": "previews/pocket-compass.png",
+      "dimensions": [
+        1.6648,
+        0.4078,
+        2.0
+      ],
+      "triangles": 224288,
+      "vertices": 123840,
+      "parts": 57,
+      "bytes": 5712612,
+      "materialSlots": [
+        "accent",
+        "glass",
+        "ink",
+        "metal",
+        "paper"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Machined compass case",
+        "Dial plate",
+        "Floating compass needle",
+        "Crystal and bezel",
+        "Carrying loop"
+      ],
+      "interaction": "The compass needle gently settles",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "camp-lantern",
+      "name": "Camp lantern",
+      "category": "Travel",
+      "description": "An assembled camp lantern whose central diffuser lights warmly; its chimney, cage, cap and handle stay attached.",
+      "model": "models/camp-lantern.glb",
+      "thumbnail": "previews/camp-lantern.png",
+      "dimensions": [
+        1.0592,
+        2.0,
+        1.0592
+      ],
+      "triangles": 92992,
+      "vertices": 50380,
+      "parts": 23,
+      "bytes": 2346148,
+      "materialSlots": [
+        "glass",
+        "ink",
+        "metal",
+        "paper",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Lower lantern base",
+        "Illuminated lantern diffuser",
+        "Light engine",
+        "Glass chimney",
+        "Protective metal cage",
+        "Ventilated cap",
+        "Carry handle"
+      ],
+      "interaction": "Switch on the warm lantern light",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "travel-mug",
+      "name": "Travel mug",
+      "category": "Travel",
+      "description": "Insulated takeaway mug with a thick lip and side handle.",
+      "model": "models/travel-mug.glb",
+      "thumbnail": "previews/travel-mug.png",
+      "dimensions": [
+        1.8739,
+        2.0,
+        1.3424
+      ],
+      "triangles": 32448,
+      "vertices": 17237,
+      "parts": 7,
+      "bytes": 810356,
+      "materialSlots": [
+        "accent",
+        "ink",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Double-wall cup",
+        "Lid gasket",
+        "Sealed lid",
+        "Sliding sip cover",
+        "Drinking slide"
+      ],
+      "interaction": "Slide the sip cover slightly",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "passport-wallet",
+      "name": "Passport wallet",
+      "category": "Travel",
+      "description": "A stitched travel document with a hinged leather cover and individually bending printed leaves.",
+      "model": "models/passport-wallet.glb",
+      "thumbnail": "previews/passport-wallet.png",
+      "dimensions": [
+        1.2335,
+        0.331,
+        2.0
+      ],
+      "triangles": 250808,
+      "vertices": 141704,
+      "parts": 235,
+      "bytes": 6640728,
+      "materialSlots": [
+        "accent",
+        "body",
+        "ink",
+        "leather",
+        "metal",
+        "paper",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Back cover",
+        "Sewn signatures",
+        "Open reading page",
+        "Cloth spine and binding",
+        "Turning leaf 1",
+        "Turning leaf 2",
+        "Turning leaf 3",
+        "Front cover",
+        "Ribbon bookmark"
+      ],
+      "interaction": "Gently lift the cover and flutter the bound pages",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "folding-sunglasses",
+      "name": "Sunglasses",
+      "category": "Travel",
+      "description": "Thick-framed round sunglasses with curved temples.",
+      "model": "models/folding-sunglasses.glb",
+      "thumbnail": "previews/folding-sunglasses.png",
+      "dimensions": [
+        2.0,
+        0.8271,
+        1.0713
+      ],
+      "triangles": 35936,
+      "vertices": 19115,
+      "parts": 9,
+      "bytes": 899296,
+      "materialSlots": [
+        "accent",
+        "lens",
+        "metal"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Front acetate frame",
+        "Tinted optical lenses",
+        "Left folding temple",
+        "Right folding temple"
+      ],
+      "interaction": "Gently fold the temples at their hinges",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "sun-cap",
+      "name": "Sun cap",
+      "category": "Travel",
+      "description": "A complete soft six-panel cap with an attached curved stitched bill, open sweatband and fixed top button.",
+      "model": "models/sun-cap.glb",
+      "thumbnail": "previews/sun-cap.png",
+      "dimensions": [
+        1.4837,
+        0.9424,
+        2.0
+      ],
+      "triangles": 61056,
+      "vertices": 31565,
+      "parts": 12,
+      "bytes": 1503164,
+      "materialSlots": [
+        "accent",
+        "body",
+        "fabric",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Complete sewn cap"
+      ],
+      "interaction": "A complete sewn cap, gently turned as one object",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "key-fob",
+      "name": "Key fob",
+      "category": "Travel",
+      "description": "Rounded leather-style fob, brass split ring and single house key.",
+      "model": "models/key-fob.glb",
+      "thumbnail": "previews/key-fob.png",
+      "dimensions": [
+        1.9672,
+        2.0,
+        0.2823
+      ],
+      "triangles": 37360,
+      "vertices": 20332,
+      "parts": 11,
+      "bytes": 947120,
+      "materialSlots": [
+        "body",
+        "leather",
+        "metal"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Leather fob",
+        "Brass eyelet",
+        "Split keyring",
+        "House key"
+      ],
+      "interaction": "A small swing of the key on its ring",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "orbit-sculpture",
+      "name": "Orbit sculpture",
+      "category": "Play",
+      "description": "Interlocking sculptural hoops around a ceramic center sphere.",
+      "model": "models/orbit-sculpture.glb",
+      "thumbnail": "previews/orbit-sculpture.png",
+      "dimensions": [
+        1.5399,
+        2.0,
+        1.078
+      ],
+      "triangles": 38816,
+      "vertices": 20291,
+      "parts": 7,
+      "bytes": 961116,
+      "materialSlots": [
+        "accent",
+        "body",
+        "metal",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Turned ceramic plinth",
+        "Outer orbital ring / Inner orbital ring / Orbiting satellites",
+        "Polished central sphere"
+      ],
+      "interaction": "Gently turn the connected orbit sculpture",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "stacking-rings",
+      "name": "Stacking rings",
+      "category": "Play",
+      "description": "Four softly inflated rings on a rounded central peg.",
+      "model": "models/stacking-rings.glb",
+      "thumbnail": "previews/stacking-rings.png",
+      "dimensions": [
+        2.0,
+        1.9271,
+        2.0
+      ],
+      "triangles": 73376,
+      "vertices": 37812,
+      "parts": 8,
+      "bytes": 1796780,
+      "materialSlots": [
+        "accent",
+        "body",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Complete sculpture"
+      ],
+      "interaction": "Gently turn the complete sculpture",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "little-rocket",
+      "name": "Little rocket",
+      "category": "Play",
+      "description": "A complete toy rocket that lifts a little with its fins and porthole attached and a small warm flame beneath the engine.",
+      "model": "models/little-rocket.glb",
+      "thumbnail": "previews/little-rocket.png",
+      "dimensions": [
+        1.1208,
+        2.0,
+        1.2941
+      ],
+      "triangles": 84880,
+      "vertices": 44339,
+      "parts": 18,
+      "bytes": 2105252,
+      "materialSlots": [
+        "accent",
+        "body",
+        "flame",
+        "flamecore",
+        "glass",
+        "lens",
+        "metal",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Complete lifting rocket",
+        "Engine flame",
+        "Flame core"
+      ],
+      "interaction": "A small liftoff with a warm engine flame",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "individual-study"
+    },
+    {
+      "id": "rubber-duck",
+      "name": "Rubber duck",
+      "category": "Play",
+      "description": "Sculpted bathing duck with flattened tail, broad beak and raised wings.",
+      "model": "models/rubber-duck.glb",
+      "thumbnail": "previews/rubber-duck.png",
+      "dimensions": [
+        2.0,
+        1.4374,
+        0.9392
+      ],
+      "triangles": 33760,
+      "vertices": 17578,
+      "parts": 7,
+      "bytes": 836004,
+      "materialSlots": [
+        "accent",
+        "body",
+        "ink",
+        "rubber",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Complete rubber duck"
+      ],
+      "interaction": "A gentle bob of the whole duck",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "tiny-robot",
+      "name": "Tiny robot",
+      "category": "Play",
+      "description": "Friendly box robot with two lens eyes and articulated-looking limbs.",
+      "model": "models/tiny-robot.glb",
+      "thumbnail": "previews/tiny-robot.png",
+      "dimensions": [
+        1.4188,
+        2.0,
+        0.6565
+      ],
+      "triangles": 73200,
+      "vertices": 39407,
+      "parts": 22,
+      "bytes": 1845620,
+      "materialSlots": [
+        "accent",
+        "body",
+        "ink",
+        "metal",
+        "paper",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Lower chassis",
+        "Chest cover",
+        "Head assembly / Faceplate / Antenna",
+        "Articulated arms"
+      ],
+      "interaction": "A small curious turn of the robot head",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "cloud-sculpture",
+      "name": "Cloud sculpture",
+      "category": "Play",
+      "description": "Single continuous ceramic cloud surface on hidden pins and a rounded display plinth.",
+      "model": "models/cloud-sculpture.glb",
+      "thumbnail": "previews/cloud-sculpture.png",
+      "dimensions": [
+        2.0,
+        1.1926,
+        0.5794
+      ],
+      "triangles": 28400,
+      "vertices": 14823,
+      "parts": 4,
+      "bytes": 701716,
+      "materialSlots": [
+        "body",
+        "metal",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Complete sculpture"
+      ],
+      "interaction": "Gently turn the complete sculpture",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "ceramic-rainbow",
+      "name": "Ceramic rainbow",
+      "category": "Play",
+      "description": "Three thick standing arches on a rounded plinth.",
+      "model": "models/ceramic-rainbow.glb",
+      "thumbnail": "previews/ceramic-rainbow.png",
+      "dimensions": [
+        2.0,
+        1.0784,
+        0.5405
+      ],
+      "triangles": 23472,
+      "vertices": 12639,
+      "parts": 10,
+      "bytes": 595528,
+      "materialSlots": [
+        "accent",
+        "body",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Complete sculpture"
+      ],
+      "interaction": "Gently turn the complete sculpture",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "flower-vase",
+      "name": "Flower vase",
+      "category": "Play",
+      "description": "Glazed bud vase with a brass stem and five-petal sculpted flower.",
+      "model": "models/flower-vase.glb",
+      "thumbnail": "previews/flower-vase.png",
+      "dimensions": [
+        0.8489,
+        2.0,
+        0.8489
+      ],
+      "triangles": 77984,
+      "vertices": 40211,
+      "parts": 10,
+      "bytes": 1912536,
+      "materialSlots": [
+        "accent",
+        "metal",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Hollow glazed bud vase",
+        "Stem and leaves / Curved ceramic petals / Flower center"
+      ],
+      "interaction": "A gentle sway of the stem and flower",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "wind-up-bird",
+      "name": "Wind-up bird",
+      "category": "Play",
+      "description": "Small mechanical bird on two feet, with a rear winding key.",
+      "model": "models/wind-up-bird.glb",
+      "thumbnail": "previews/wind-up-bird.png",
+      "dimensions": [
+        2.0,
+        1.5676,
+        0.7858
+      ],
+      "triangles": 51072,
+      "vertices": 27024,
+      "parts": 13,
+      "bytes": 1274056,
+      "materialSlots": [
+        "accent",
+        "body",
+        "ink",
+        "metal",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Seamless glazed bird",
+        "Beak and eyes",
+        "Sculpted wings",
+        "Mechanical feet",
+        "Wind-up key"
+      ],
+      "interaction": "A small turn of the winding key",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    },
+    {
+      "id": "balance-mobile",
+      "name": "Balance mobile",
+      "category": "Play",
+      "description": "Desktop kinetic sculpture with offset weights and a curved fulcrum.",
+      "model": "models/balance-mobile.glb",
+      "thumbnail": "previews/balance-mobile.png",
+      "dimensions": [
+        2.0,
+        1.7547,
+        0.8659
+      ],
+      "triangles": 34752,
+      "vertices": 18273,
+      "parts": 8,
+      "bytes": 864872,
+      "materialSlots": [
+        "accent",
+        "body",
+        "metal",
+        "secondary"
+      ],
+      "preferredPalette": "Cobalt",
+      "study": null,
+      "qualityStandard": "camera-craft-v1",
+      "assemblies": [
+        "Sculpted ceramic base",
+        "Fulcrum",
+        "Balancing beam / Sphere counterweight / Ring counterweight"
+      ],
+      "interaction": "The connected balance beam gently rocks",
+      "hint": "HOVER FOR A LITTLE MOVEMENT \u00b7 DRAG TO EXPLORE",
+      "reviewStatus": "collection-study"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "models": 60,
+  "rotatedPoses": 1800,
+  "oldKeyboardFailureReproduced": true,
+  "floorBelowAllRotatedVertices": true,
+  "orbitCenterStable": true,
+  "rocketRetainsLaunchClearance": true
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "pocket-notebook",
+    "boundLeaves": 3,
+    "spineInvariantAtFourProgressValues": true,
+    "translationFallbacks": 0
+  },
+  {
+    "id": "passport-wallet",
+    "boundLeaves": 3,
+    "spineInvariantAtFourProgressValues": true,
+    "translationFallbacks": 0
+  }
+]

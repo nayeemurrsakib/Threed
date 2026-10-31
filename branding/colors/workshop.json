@@ -1,0 +1,14 @@
+{
+  "source": "Sampled from user-supplied palette screenshot, 2026-10-30",
+  "colors": {
+    "accent": "#df6f4b",
+    "ink": "#2a3330",
+    "lens": "#19272a",
+    "paper": "#f4eddc",
+    "secondary": "#a1baaa",
+    "body": "#e8e4d9",
+    "leather": "#70887b",
+    "metal": "#b3a07a",
+    "rubber": "#444844"
+  }
+}

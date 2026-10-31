@@ -1,0 +1,10 @@
+/* Little Things button kit. Use native <button> or <a> elements with these classes. */
+.lt-button{--lt-ink:#29332d;--lt-paper:#f5f3ed;--lt-accent:#db653f;--lt-edge:#97432a;display:inline-flex;align-items:center;justify-content:center;gap:var(--space-16);min-height:44px;padding:var(--space-12) var(--space-20);border:1px solid var(--lt-ink);border-radius:var(--radius-pill);background:transparent;color:var(--lt-ink);font:var(--fs-sm)/1.3 "SFMono-Regular",Consolas,monospace;text-decoration:none;cursor:pointer;position:relative;transition:transform 180ms cubic-bezier(.23,1,.32,1),box-shadow 180ms cubic-bezier(.23,1,.32,1);-webkit-tap-highlight-color:transparent}
+.lt-button:focus-visible{outline:2px solid var(--lt-accent);outline-offset:5px}.lt-button:disabled{opacity:.45;cursor:not-allowed;pointer-events:none}.lt-button:active{transform:scale(.97)}
+.lt-outline:hover,.lt-outline[aria-pressed=true]{background:var(--lt-ink);color:var(--lt-paper)}
+.lt-tactile{color:var(--on-accent);background:var(--lt-accent);border-color:#ba5230;box-shadow:0 4px 0 var(--lt-edge),inset 0 1px 0 #ffffff45}
+.lt-tactile:hover{transform:translateY(-2px);box-shadow:0 6px 0 var(--lt-edge),inset 0 1px 0 #ffffff45}.lt-tactile:active{transform:translateY(4px);box-shadow:0 0 0 var(--lt-edge),inset 0 1px 0 #ffffff45}
+.lt-round{width:44px;padding:0;font-family:sans-serif;font-size:var(--fs-xl)}.lt-round:hover{background:#dce4d8}
+.lt-magnetic{transform:translate(var(--lt-x,0px),var(--lt-y,0px));background:var(--lt-ink);color:var(--lt-paper)}.lt-magnetic:active{transform:scale(.97)}
+.lt-orbit-dot{display:inline-block;width:6px;height:6px;background:currentColor;border-radius:50%;box-shadow:0 0 0 4px #ffffff15}
+@media(prefers-reduced-motion:reduce){.lt-button{transition:none}.lt-magnetic,.lt-tactile:hover{transform:none}}

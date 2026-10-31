@@ -1,0 +1,542 @@
+{
+  "dome-lamp": {
+    "sha256": "b2fcc5000eb623147d037c5665b9f384d1e6298052c119a89e9013d1b2a806f3",
+    "board": "refinement/review-v05/desk.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "task-lamp": {
+    "sha256": "017dbdfc758212c3dc97b489956a277228e12902585b10ac05b4d4c80c1de91f",
+    "board": "refinement/review-v05/desk.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "pencil-cup": {
+    "sha256": "939f11415a7da13953d365953ab85daf391e6c11cd4aeb5377eb850bd72acdf1",
+    "board": "refinement/review-v05/desk.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "stapler": {
+    "sha256": "9c08cefd2255448d3b9f28e529659cb835c74f448d063a700091dbf1cbb4cc7f",
+    "board": "refinement/review-v05/desk.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "pocket-notebook": {
+    "sha256": "421acf652501d61880c9748229d58f4160b60c08f3cea4b522b38b21b7d92f54",
+    "board": "refinement/review-v05/desk.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "calculator": {
+    "sha256": "c88a0505ecd2c1215dc9b03ba7e03f72768f5e5bdd0e3e657385e51e82fa28f1",
+    "board": "refinement/review-v05/desk.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "tape-dispenser": {
+    "sha256": "3c0b8b0e76016ef8b84cbb02fdcab2858403f28fca2a816b26d5dcac18e68b5b",
+    "board": "refinement/review-v05/desk.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "alarm-clock": {
+    "sha256": "580a3d4f0de10c9603533dc82eaefd2dc64707410809378ea238944c53d00121",
+    "board": "refinement/review-v05/desk.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "sand-timer": {
+    "sha256": "95e4d53e54c578c4d922ec0d5e937a3ccaea32351f2b17490bd33318850e5cb2",
+    "board": "refinement/review-v05/desk.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "fountain-pen": {
+    "sha256": "07897ba6f6551d2a353aca2de4045ec4d207993d320ed0f91cd6c3e0743e6dd1",
+    "board": "refinement/review-v05/desk.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "rangefinder-camera": {
+    "sha256": "ff1e2f5c978a8c0b42f80487a63630af23bcde13e17dbddfc463dccc9c362e31",
+    "board": "refinement/review-v05/devices.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "portable-radio": {
+    "sha256": "286d48f4890d10552d164e97e11e38c4560a88241578252b859a1714e1bfab36",
+    "board": "refinement/review-v05/devices.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "over-ear-headphones": {
+    "sha256": "ce0007d3bc1b49c595b5c84b4bd1c242d347465c01a9abfbbd7ad6996d6d8443",
+    "board": "refinement/review-v05/devices.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "game-controller": {
+    "sha256": "d29bed5ba00da668fac29835b276c7e3a29819032f315ad67e38db9e1cffc8b1",
+    "board": "refinement/review-v05/devices.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "bookshelf-speaker": {
+    "sha256": "1239da0d8c4a73094118f7857473f42e62728592a742c4226707e4504f02d0dc",
+    "board": "refinement/review-v05/devices.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "desktop-display": {
+    "sha256": "5541a0e1b4b7d0de23bdd2d037b12bb379568e0ff045d87a17dcbe15c3b590bc",
+    "board": "refinement/review-v05/devices.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "mechanical-keyboard": {
+    "sha256": "1617ebb6f2c9207b7423d17c027fdec8e009431131e52b67cafe498d56aa3fe0",
+    "board": "refinement/review-v05/devices.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "pocket-console": {
+    "sha256": "e7fe6c6f6b68bf37cd1dc38cc90edc0bc645c3f505a2f4c109169c4d16871dba",
+    "board": "refinement/review-v05/devices.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "studio-microphone": {
+    "sha256": "1f6cf8ee78fcca26db6d0a04a56b04f6fad3e1988c502b3eff1ea195793650db",
+    "board": "refinement/review-v05/devices.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "web-camera": {
+    "sha256": "5e9cd90e6f88e756cd37444896e44a69128b1ed37126c62df2d7aa803d6b91c8",
+    "board": "refinement/review-v05/devices.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "pour-over-kettle": {
+    "sha256": "ef2fae9b782dd714272a0d3f2926c2262b890fd170e5ae123e99657d31caed81",
+    "board": "refinement/review-v05/kitchen.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "stovetop-brewer": {
+    "sha256": "6c025b932e76bc0798246b7bfc76eb05713fcbdbc8f1ea52298cb934e937f90f",
+    "board": "refinement/review-v05/kitchen.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "two-slot-toaster": {
+    "sha256": "da7c21e8bbdba2d18c2507689e6b229e8c5e30d28f36799ac6c8aa897f9a3931",
+    "board": "refinement/review-v05/kitchen.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "lidded-pot": {
+    "sha256": "d2865c938572966704a50b4092b71c0ce801ac6abda6b2b2ec308d5f1234698d",
+    "board": "refinement/review-v05/kitchen.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "countertop-blender": {
+    "sha256": "5aaaabdf59cff14d5e758db4aa6ff12985ae673c178aeacdb77d25a3ffe431d6",
+    "board": "refinement/review-v05/kitchen.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "espresso-cup": {
+    "sha256": "5955795686fba9e571bc2257a384796524bdc7bdcfb0ac0036f40aa22d93c191",
+    "board": "refinement/review-v05/kitchen.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "insulated-bottle": {
+    "sha256": "2ca6969ab98a8fa2770f2363c13f5f0ad957ceb4110a0594c04a0db2ebd4e78a",
+    "board": "refinement/review-v05/kitchen.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "citrus-press": {
+    "sha256": "5507b881003648de01ceeecba261247e3e4302537e127cf6ecc6a5c32248e726",
+    "board": "refinement/review-v05/kitchen.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "kitchen-scale": {
+    "sha256": "11943c583fc63bd57ef35aa6dfab463dbd83ca43cb32b6e242fcd3c44753c20d",
+    "board": "refinement/review-v05/kitchen.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "pepper-mill": {
+    "sha256": "e2a44203d11499c348ee18f7ede619e23d7078f653f397d614d35f18d5a97b41",
+    "board": "refinement/review-v05/kitchen.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "shopping-tote": {
+    "sha256": "42b547fb9349dafe770f09e2fbeb41ba3b14b5a8c1ee2978adbae069749d5cc7",
+    "board": "refinement/review-v05/commerce.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "ribbon-gift": {
+    "sha256": "9ab53fc4a0d1365a78aa654fb4e4c4df89bc7f516055c6f50ff7547ad5798112",
+    "board": "refinement/review-v05/commerce.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "payment-terminal": {
+    "sha256": "05d5d9ae34a2a5966e087c988c32474988447395c7daac4938ed2166cd69e3a5",
+    "board": "refinement/review-v05/commerce.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "delivery-parcel": {
+    "sha256": "14ea5c8218f7988af0423f556ed6015944d55579f940a7a0758c43c2535cfee1",
+    "board": "refinement/review-v05/commerce.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "market-basket": {
+    "sha256": "3fa5ac0069f1beec1d3f9b6ab8d55a2ae694dcdc78e3afd679b6ca93edb0f736",
+    "board": "refinement/review-v05/commerce.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "price-tag": {
+    "sha256": "04c887848e4e72549cacb632cc2d8f2e74992233ea9a3e46432b54094939ef4c",
+    "board": "refinement/review-v05/commerce.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "coin-stack": {
+    "sha256": "9ff43591749ca7446d1e892915c950db85fe423849842881db1cb79966a78f64",
+    "board": "refinement/review-v05/commerce.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "store-awning": {
+    "sha256": "b77a4f473416b9eab64e5bb53945eaa2c2882ea8971072fc53833ee856e42e48",
+    "board": "refinement/review-v05/commerce.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "receipt-printer": {
+    "sha256": "0eade0a3931042683c9bfe4ef6b804fa305de823e03f96aa4622dffeb4b8d362",
+    "board": "refinement/review-v05/commerce.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "piggy-bank": {
+    "sha256": "24a807f3e0acc54c26478ce7c77bf57e40f9ae0f663c8ecba00e103f2ff8e37f",
+    "board": "refinement/review-v05/commerce.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "cabin-suitcase": {
+    "sha256": "7608f554c5cb601d728d9d6a966ce060f9c2279deb94b62950fca09cfb9b6db0",
+    "board": "refinement/review-v05/travel.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "weekend-backpack": {
+    "sha256": "8f5858f3fd456f1aec8bc47533e187359624df295ec62b906e7a1488fb6c8369",
+    "board": "refinement/review-v05/travel.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "binoculars": {
+    "sha256": "7d0c54446312c6493bcdfb416faf6e6ec4bedabaa6a94136095000330ca09271",
+    "board": "refinement/review-v05/travel.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "pocket-compass": {
+    "sha256": "95bf363445b0345e55455c1f73c33e3080c3c79584c413e017949370ad3faee4",
+    "board": "refinement/review-v05/travel.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "camp-lantern": {
+    "sha256": "71c0b2b23aad39d55fbcb186a34f361a84a0d0cfe1beaf83504f6bce83876684",
+    "board": "refinement/review-v05/travel.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "travel-mug": {
+    "sha256": "35668290947cc5508d8c978555a0ff4d607bf1988bbc0303ef4be298b127cd17",
+    "board": "refinement/review-v05/travel.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "passport-wallet": {
+    "sha256": "f078253eaae94f00fd8ed1e3f26170dd300e80fd587211c897d5f1b26fee85c8",
+    "board": "refinement/review-v05/travel.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "folding-sunglasses": {
+    "sha256": "18bf77492f18d8e575cc69bd7c816f371bd39ef8636561ec61434439b0a1ea6a",
+    "board": "refinement/review-v05/travel.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "sun-cap": {
+    "sha256": "2dc17e26510186c65b9a8479d53fa62440572800af5fa9621e5e9c74d5f677c5",
+    "board": "refinement/review-v05/travel.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "key-fob": {
+    "sha256": "8a4afc79b14849ba70ae058ce3b7059a6b8ba4fd42908859f3681316fe939183",
+    "board": "refinement/review-v05/travel.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "orbit-sculpture": {
+    "sha256": "4f124d1f478b2bea05c9182480c34c57f01ddb8e18fa21546485bf14dc606060",
+    "board": "refinement/review-v05/play.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "stacking-rings": {
+    "sha256": "2ea4433e9453068870c11821a9d875f418e15a11a9f0c5d55caf81dda94f1f20",
+    "board": "refinement/review-v05/play.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "little-rocket": {
+    "sha256": "3ab441dc6022111c884edf1ab8541c2220d9605d532c9ce751de886b03f7d97c",
+    "board": "refinement/review-v05/play.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "rubber-duck": {
+    "sha256": "9f1d4c0bce9543d966deeff538b484c5e87213f6c4fdbc1e469176e0b9b15d15",
+    "board": "refinement/review-v05/play.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "tiny-robot": {
+    "sha256": "87c1df223e26c4e7f6cab5fed2ada3e92a845f8daf8be78c8bf445a107a4c392",
+    "board": "refinement/review-v05/play.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "cloud-sculpture": {
+    "sha256": "8ac7d6536fcdb6ea66fc97b87125d0312a1a69f0f63efdcf42468a62dcf85061",
+    "board": "refinement/review-v05/play.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "ceramic-rainbow": {
+    "sha256": "84cdd049e73ad949ede52b05f08351dd9977df97ba84ec77d35813bbf678237a",
+    "board": "refinement/review-v05/play.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "flower-vase": {
+    "sha256": "23901a55c1b11f6f9ad9de4533550e03eb0be750b51775cb85986555670278dc",
+    "board": "refinement/review-v05/play.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "wind-up-bird": {
+    "sha256": "3688396bb07059bfcb52fe2674e1b87330f752b9b3e0a2b4fba5afcb4af6835f",
+    "board": "refinement/review-v05/play.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  },
+  "balance-mobile": {
+    "sha256": "0c9fcd68c368a25711086536bac1de37a5718aaed06bd840c5dda49726d68304",
+    "board": "refinement/review-v05/play.png",
+    "views": [
+      "assembled",
+      "expanded"
+    ],
+    "standard": "camera-craft-v1"
+  }
+}

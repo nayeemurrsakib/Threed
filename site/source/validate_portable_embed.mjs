@@ -1,0 +1,17 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+const root=new URL('../',import.meta.url),source=readFileSync(new URL('viewer/portable-embed.js',root),'utf8');
+const {portableEmbed}=await import(`data:text/javascript;base64,${Buffer.from(source).toString('base64')}`);
+const model=readFileSync(new URL('models/rangefinder-camera.glb',root));
+const scene={id:'rangefinder-camera',label:'Studio camera',theme:'light',transparent:true,motion:'hover',state:{background:'#ebe9e2',intensity:3,fill:.65,shadow:.55,softness:2.5,explodeStrength:.85,follow:true,spin:false,blastHold:false},view:{yaw:.1,pitch:0}};
+const code=await portableEmbed(new Blob([model]),scene,readFileSync(new URL('viewer/renderer.js',root),'utf8'));
+assert.ok(code.startsWith('<iframe '));assert.ok(code.includes('srcdoc='));assert.ok(!code.includes('localhost'));assert.ok(!code.includes('http:'));assert.ok(!code.includes('https:'));
+const encoded=/srcdoc="([\s\S]*?)" style=/.exec(code)[1];
+const html=encoded.replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');
+const script=/<script>([\s\S]*)<\/script>/.exec(html)[1];new Function(script);
+const base64=/atob\("([A-Za-z\d+/=]+)"\)/.exec(script)[1];
+const bytes=await new Response(new Blob([Buffer.from(base64,'base64')]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();
+assert.deepEqual(Buffer.from(bytes),model);
+writeFileSync(new URL('reports/framer/PORTABLE-CAMERA.html',root),'<!doctype html><html><head><meta charset="utf-8"><title>threed® portable embed test</title><style>body{margin:0;background:#ebe9e2;font:14px Arial;color:#29332d}main{width:min(100%,600px);margin:24px auto}h1{font-size:20px;margin:0 24px}p{margin:12px 24px}.preview{height:480px}</style></head><body><main><h1>Live 3D embed</h1><p>The copied HTML contains the viewer, model and settings.</p><div class="preview">'+code+'</div></main></body></html>');
+const result={renderableHTML:true,scriptSyntax:true,noExternalAssetURLs:true,compressedModelRoundTrip:true,codeBytes:Buffer.byteLength(code)};
+writeFileSync(new URL('reports/validation/PORTABLE-EMBED-VALIDATION.json',root),JSON.stringify(result,null,2)+'\n');console.log(result);

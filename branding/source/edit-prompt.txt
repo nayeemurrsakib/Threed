@@ -1,0 +1,1 @@
+Built-in image_gen edit of references/initial-concept.png: reduce logo and matching ee marks by approximately 15% in stroke weight; preserve original rounded character, large eye counters and curious pupils, ivory/ink/vermilion palette, board layout, labels, and tagline.

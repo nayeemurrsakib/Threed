@@ -1,0 +1,151 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>threed® — Design system</title>
+<script>try{document.documentElement.dataset.theme=localStorage.getItem("little-things-theme-v1")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");}catch{document.documentElement.dataset.theme="light";}</script>
+<meta name="description" content="The threed® design system: colour, type, spacing, shape and every interface component, live.">
+<link id="site-icon" rel="icon" type="image/svg+xml" href="assets/brand/favicon-light.svg?v=1">
+<script>document.getElementById("site-icon").href="assets/brand/favicon-"+document.documentElement.dataset.theme+".svg?v=1";</script>
+<link rel="stylesheet" href="viewer/tokens.css?v=7">
+<link rel="stylesheet" href="viewer/studio.css?v=0.12.9-chipborder">
+<link rel="stylesheet" href="viewer/guide.css?v=4-ds">
+<link rel="stylesheet" href="viewer/buttons.css?v=2-ds">
+<link rel="stylesheet" href="viewer/design-system.css?v=8">
+</head><body>
+<!-- component:header action=back --><header class="topbar"><a class="wordmark" href="./" aria-label="threed® home"><span class="brand-wordmark"><img class="brand-logo brand-logo-light" src="assets/brand/threed-smile-ink.svg" alt="threed®"><img class="brand-logo brand-logo-dark" src="assets/brand/threed-smile-ivory.svg" alt=""><img class="brand-frame brand-frame-light" src="assets/brand/threed-smile-frame-ink.svg" alt=""><img class="brand-frame brand-frame-dark" src="assets/brand/threed-smile-frame-ivory.svg" alt=""></span><span class="brand-mascot" aria-hidden="true"><canvas id="brand-canvas" tabindex="-1"></canvas></span></a><div class="edition">OBJECT LIBRARY <span>VOL. 01</span></div><div class="header-actions"><div class="theme-switch" role="group" aria-label="Appearance"><button type="button" data-theme-choice="light" aria-label="Light mode" title="Light mode" aria-pressed="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.4 1.4M17.6 17.6L19 19M5 19l1.4-1.4M17.6 6.4L19 5"/></svg></button><button type="button" data-theme-choice="dark" aria-label="Dark mode" title="Dark mode" aria-pressed="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M20 15.2A8.7 8.7 0 0 1 8.8 4a8.7 8.7 0 1 0 11.2 11.2Z"/></svg></button></div><a class="guide-button btn-secondary" href="./" aria-label="Back to the studio"><span class="guide-icon-backdrop" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg></span><span>Back to the studio</span></a></div></header><!-- /component:header -->
+<main class="guide-main ds-main">
+ <section class="ds-intro">
+  <p class="t-label">Design system · Vol. 01</p>
+  <h1 class="t-display">Small parts.<br>One system.</h1>
+  <p class="t-body-sm ds-lead">Every colour, text style, space and component used across threed®, rendered live from the same tokens and classes as the studio. Switch the theme to see both modes.</p>
+ </section>
+ <div class="guide-layout">
+  <aside class="guide-toc"><nav aria-label="On this page">
+   <a href="#color">Colour</a><a href="#type">Type</a><a href="#spacing">Spacing</a><a href="#shape">Shape</a><a href="#layout">Layout</a>
+   <a href="#buttons">Buttons</a><a href="#controls">Controls</a><a href="#selection">Selection</a><a href="#collection">Collection</a><a href="#feedback">Menus & feedback</a><a href="#button-kit">Button kit</a><a href="#using">Using the system</a>
+  </nav></aside>
+  <div class="guide-content">
+
+   <section id="color" class="guide-section">
+    <h2>Colour</h2>
+    <p>Every role has a light and a dark value, and components only ever name the role. A dashed card borrows another colour in the current theme.</p>
+    <div class="ds-swatches" id="swatches"></div>
+   </section>
+
+   <section id="type" class="guide-section">
+    <h2>Type</h2>
+    <p>Three families and nine sizes. Repeated text uses a named style, never a one-off size.</p>
+    <div class="ds-type">
+     <div class="ds-type-row"><span class="t-display">The object room</span><code>.t-display · serif · --fs-4xl 48</code></div>
+     <div class="ds-type-row"><span class="t-heading">Choose what you need</span><code>.t-heading · serif · --fs-3xl 38</code></div>
+     <div class="ds-type-row"><span class="t-title">Alarm clock</span><code>.t-title · serif · --fs-2xl 30</code></div>
+     <div class="ds-type-row"><span class="t-body">Make it yours</span><code>.t-body · sans · --fs-md 14</code></div>
+     <div class="ds-type-row"><span class="t-body-sm">A rounded twin-bell clock with moving hands.</span><code>.t-body-sm · sans · --fs-sm 12</code></div>
+     <div class="ds-type-row"><span class="t-caption">Mouse follow</span><code>.t-caption · sans · --fs-xs 10</code></div>
+     <div class="ds-type-row"><span class="t-meta">06 / 60</span><code>.t-meta · mono · --fs-xs 10</code></div>
+     <div class="ds-type-row"><span class="t-label">Designed as objects. Built to move.</span><code>.t-label · mono caps · --fs-2xs 8</code></div>
+    </div>
+    <div class="ds-scale" id="type-scale"></div>
+   </section>
+
+   <section id="spacing" class="guide-section">
+    <h2>Spacing</h2>
+    <p>A 4px grid with two half-steps. Gaps, padding and margins snap to these values.</p>
+    <div class="ds-spaces" id="spaces"></div>
+   </section>
+
+   <section id="shape" class="guide-section">
+    <h2>Shape</h2>
+    <p>Five radii. Controls are pills, surfaces are softly rounded, dots and avatars are round.</p>
+    <div class="ds-radii" id="radii"></div>
+   </section>
+
+   <section id="layout" class="guide-section">
+    <h2>Layout</h2>
+    <p>The page never grows wider than its maximum, and the gutter tightens on smaller screens. Two hairlines frame the page on both sides.</p>
+    <div class="ds-facts" id="layout-facts"></div>
+   </section>
+
+   <section id="buttons" class="guide-section">
+    <h2>Buttons</h2>
+    <p>One primary action per view. Everything else is quieter.</p>
+    <div class="ds-specimen"><div class="export-bar ds-export"><button type="button" class="tactile" id="ds-glb">Save 3D object <span>GLB</span></button></div><code>.tactile — primary, opens Full / Light with model facts</code></div>
+    <div class="ds-specimen"><div class="export-bar ds-export"><button type="button" class="cutout-button btn-secondary" id="ds-png"><span class="cutout-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M7 3H3V7M13 3H17V7M3 13V17H7M13 17H17V13"/><rect x="6.5" y="6.5" width="7" height="7" rx="1" stroke-dasharray="1.5 2"/></svg></span><span>Save PNG</span></button><button type="button" class="recipe-button btn-secondary" id="ds-json"><span class="recipe-icon" aria-hidden="true">{ }</span><span>Save JSON</span></button></div><code>.btn-secondary — the one quiet-button surface (Save PNG, Save JSON, Read the guide, reset view)</code></div>
+    <div class="ds-specimen"><div class="ds-guide"><a class="guide-button btn-secondary" href="#buttons" aria-label="Read the guide"><span class="platform-guide-marks" aria-hidden="true"><img class="platform-framer-mark" src="assets/platforms/framer.svg" width="10" height="16" alt=""></span><span>Read the guide</span></a></div><code>.guide-button.btn-secondary — header link</code></div>
+    <div class="ds-specimen"><button type="button" class="outline-button">Copy embed code</button><code>.outline-button — utility</code></div>
+    <div class="ds-specimen"><button type="button" class="round-button btn-secondary" aria-label="Reset view"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10a8 8 0 1 1 .6 6M4 4v6h6"/></svg></button><code>.round-button.btn-secondary — icon only</code></div>
+    <div class="ds-specimen"><div class="ds-nav-pair"><button type="button" class="stage-nav ds-static-nav" aria-label="Previous"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3 5 8l5 5"/></svg></button><button type="button" class="stage-nav ds-static-nav" aria-label="Next"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 3 5 5-5 5"/></svg></button></div><code>.stage-nav — previous / next on the stage, also ← →</code></div>
+    <div class="ds-specimen"><button type="button" class="reset-button" id="ds-reset"><svg class="reset-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg><span>Reset</span></button><code>.reset-button — hover winds back, click spins</code></div>
+    <div class="ds-specimen"><button type="button" class="text-button">Close</button><code>.text-button — inline</code></div>
+   </section>
+
+   <section id="controls" class="guide-section">
+    <h2>Controls</h2>
+    <p>Switches for on/off, sliders for amounts, selects for a short list.</p>
+    <div class="ds-specimen"><label class="switch"><input type="checkbox" checked><span class="switch-track"></span>Mouse follow</label><label class="switch"><input type="checkbox"><span class="switch-track"></span>Exploded view</label><code>.switch</code></div>
+    <div class="ds-specimen ds-wide"><label class="range-row"><span>Strength <output id="ds-range-out">3.0</output></span><input id="ds-range" type="range" min="0" max="7" step=".1" value="3"></label><code>.range-row</code></div>
+    <div class="ds-specimen ds-wide"><label class="select-row">Material finish<span class="select-control"><select><option>Object original</option><option>Satin ceramic</option><option>Matte clay</option></select><svg class="select-chevron" width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 5 4 4 4-4"/></svg></span></label><code>.select-row</code></div>
+    <div class="ds-specimen ds-wide"><label class="search"><span aria-hidden="true">⌕</span><input type="search" value="lamp" aria-label="Search example"><span class="search-count">2 of 60</span><kbd class="search-key" aria-hidden="true">/</kbd></label><code>.search — "/" focuses it, live count while typing</code></div>
+   </section>
+
+   <section id="selection" class="guide-section">
+    <h2>Selection</h2>
+    <p>Pressed states always use the ink border or fill, so a selection reads the same everywhere.</p>
+    <div class="ds-specimen"><div class="filters ds-static" id="ds-chips"></div><code>.chip</code></div>
+    <div class="ds-specimen ds-wide"><div class="palette-options" id="ds-palettes"></div><code>.palette</code></div>
+    <div class="ds-specimen"><div class="color-controls ds-colors" id="ds-colors"></div><code>.chip-option.color-control — hover shows the hex</code></div>
+    <div class="ds-specimen ds-wide"><div class="light-options" id="ds-lights"></div><code>.chip-option.light-option — lit-sphere preview of each preset</code></div>
+    <div class="ds-specimen ds-wide"><details class="fine-tune ds-fine-tune"><summary><h3><span>04</span> Fine-tune</h3><span class="fine-tune-hint">Light, shadow</span><svg class="fine-tune-chevron" width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 5 4 4 4-4"/></svg></summary><div class="fine-tune-body"><p class="fine-tune-label t-label">Shadow</p><label class="range-row"><span>Density <output>0.55</output></span><input type="range" min="0" max="1" step=".05" value=".55"></label></div></details><code>details.fine-tune — collapsed advanced controls, remembers open state</code></div>
+    <div class="ds-specimen"><div class="theme-switch" role="group" aria-label="Appearance example"><button type="button" aria-label="Light" aria-pressed="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.4 1.4M17.6 17.6L19 19M5 19l1.4-1.4M17.6 6.4L19 5"/></svg></button><button type="button" aria-label="Dark" aria-pressed="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M20 15.2A8.7 8.7 0 0 1 8.8 4a8.7 8.7 0 1 0 11.2 11.2Z"/></svg></button></div><code>.theme-switch</code></div>
+   </section>
+
+   <section id="collection" class="guide-section">
+    <h2>Collection</h2>
+    <p>Tiles pair a thumbnail with a name and index. The selected tile gets the ink ring and an accent dot. Hovering lifts a tile slightly.</p>
+    <div class="ds-tiles object-grid" id="ds-tiles"></div>
+    <div class="ds-specimen"><div class="section-heading ds-heading"><h2>Collection <span>60</span></h2><span class="small-mono">01—60</span></div><code>.section-heading</code></div>
+   </section>
+
+   <section id="feedback" class="guide-section">
+    <h2>Menus & feedback</h2>
+    <p>Menus float on paper with a soft shadow. Messages appear briefly at the bottom of the screen.</p>
+    <div class="ds-specimen"><div class="export-dropdown ds-static-menu" role="menu" aria-label="Example menu"><button type="button" role="menuitem"><span>Full detail</span><small>Original geometry · 4.6 MB</small></button><button type="button" role="menuitem"><span>Light</span><small>Same look, smaller file · 449 KB</small></button></div><code>.export-dropdown</code></div>
+    <div class="ds-specimen"><button type="button" class="outline-button" id="ds-toast-button">Show a message</button><code>.toast</code></div>
+    <div class="ds-specimen"><span class="credit ds-credit"><span class="credit-avatar" aria-hidden="true"><span class="credit-face credit-front"><img src="assets/brand/nayeemur-r-s.jpg" width="16" height="16" alt=""></span><span class="credit-face credit-back"></span></span><span>A PROJECT BY <span class="credit-name">NAYEEMURRSAKIB</span></span></span><code>footer .credit — hover flips the avatar</code></div>
+    <div class="ds-specimen"><a class="ds-footer-link" href="#feedback">Design System<svg class="footer-link-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9 9 3M4 3h5v5"/></svg></a><code>footer .footer-link</code></div>
+    <div class="ds-specimen"><div class="ds-status-pair"><span class="site-status" data-status="ok"><span class="status-dot" aria-hidden="true"></span><span class="status-text">ALL SYSTEMS OPERATIONAL</span></span><span class="site-status" data-status="error" title="Example: Could not load calculator.glb (404)"><span class="status-dot" aria-hidden="true"></span><span class="status-text">SOMETHING WENT WRONG</span></span></div><code>.site-status — live; turns red on script errors, failed loads, WebGL or offline</code></div>
+   </section>
+
+   <section id="button-kit" class="guide-section">
+    <h2>Button kit</h2>
+    <p>A small kit of satisfying controls for your own pages. Try them on the little robot.</p>
+    <div class="button-demo ds-kit">
+     <div class="example-object"><little-object id="example" src="models/tiny-robot.glb" label="Interactive tiny robot. Drag or use arrow keys to rotate."></little-object><div class="example-orbit" aria-hidden="true"></div></div>
+     <div class="button-samples" aria-label="Interactive button examples">
+      <div class="button-sample"><p class="t-label">01 / The orbit pill</p><div class="button-row"><button class="lt-button lt-outline" data-color="#e66e45" aria-pressed="true">Terracotta <span class="lt-orbit-dot" aria-hidden="true"></span></button><button class="lt-button lt-outline" data-color="#3054d7" aria-pressed="false">Cobalt <span class="lt-orbit-dot" aria-hidden="true"></span></button></div><small>Thin outline. Clear state. A quieter kind of charm.</small></div>
+      <div class="button-sample"><p class="t-label">02 / The tactile press</p><button class="lt-button lt-tactile" id="demo-spin" aria-pressed="false">Give it a spin <span aria-hidden="true">↻</span></button><small>A raised edge that compresses when you press.</small></div>
+      <div class="button-sample"><p class="t-label">03 / The gentle magnet</p><div class="button-row"><button class="lt-button lt-magnetic" id="demo-magnet">Meet the next object <span aria-hidden="true">↗</span></button><button class="lt-button lt-round" id="demo-reset" aria-label="Reset demonstration">↺</button></div><small>A restrained pull toward your cursor. Motion preferences respected.</small></div>
+     </div>
+    </div>
+    <p id="button-status" class="t-meta ds-status" role="status">Ready when you are.</p>
+    <pre><code>&lt;link rel="stylesheet" href="viewer/tokens.css"&gt;
+&lt;link rel="stylesheet" href="viewer/buttons.css"&gt;
+&lt;button class="lt-button lt-tactile"&gt;Download pack ↓&lt;/button&gt;
+&lt;button class="lt-button lt-outline" aria-pressed="false"&gt;Materials&lt;/button&gt;</code></pre>
+   </section>
+
+   <section id="using" class="guide-section">
+    <h2>Using the system</h2>
+    <ol>
+     <li><strong>Values come from tokens.</strong> Colour, size, space, radius and layout live in <code>viewer/tokens.css</code>. Never type a raw pixel value for these.</li>
+     <li><strong>Repeated text uses a style.</strong> Reach for <code>.t-label</code>, <code>.t-meta</code>, <code>.t-caption</code> and friends before writing a new font rule.</li>
+     <li><strong>Repeated page parts are components.</strong> The header and footer live in <code>components/</code>. Edit them there, then run <code>python3 source/build_pages.py</code>.</li>
+     <li><strong>New components go here.</strong> Any new reusable piece is added to this page as a live specimen with its class name, in the same change.</li>
+     <li><strong>Keep it snapped.</strong> After editing CSS, run <code>python3 source/tokenize_css.py viewer/*.css</code> to pull any stray value back onto the scale.</li>
+    </ol>
+   </section>
+  </div>
+ </div>
+ <!-- component:footer link=studio --><footer class="site-footer"><span>DESIGNED AS OBJECTS. BUILT TO MOVE.</span><a class="credit" href="https://x.com/nayeemur_r_s" target="_blank" rel="noopener noreferrer" aria-label="A project by NayeemurRSakib on X"><span class="credit-avatar" aria-hidden="true"><span class="credit-face credit-front"><img src="assets/brand/nayeemur-r-s.jpg" width="16" height="16" alt=""></span><span class="credit-face credit-back"></span></span><span>A PROJECT BY <span class="credit-name">NAYEEMURRSAKIB</span></span></a><span class="footer-end"><span class="site-status" data-live data-status="ok" role="status" aria-live="polite"><span class="status-dot" aria-hidden="true"></span><span class="status-text">ALL SYSTEMS OPERATIONAL</span></span><a class="footer-link" href="./">Back to Studio<svg class="footer-link-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9 9 3M4 3h5v5"/></svg></a></span><script type="module" src="viewer/status.js?v=2"></script></footer><!-- /component:footer -->
+</main><div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script type="module" src="viewer/design-system.js?v=10"></script><script type="module" src="viewer/brand-mark.js?v=0.8.4-guide-logo"></script>
+</body></html>

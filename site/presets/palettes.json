@@ -1,0 +1,74 @@
+{
+  "Workshop": {
+    "body": "#e8e4d8",
+    "accent": "#e66e45",
+    "secondary": "#9ebaaa",
+    "ink": "#293330",
+    "metal": "#b4a078",
+    "lens": "#17272a",
+    "paper": "#f5eddb",
+    "rubber": "#444844",
+    "fabric": "#9ebaaa",
+    "leather": "#6d887b"
+  },
+  "Cobalt": {
+    "body": "#f5f5f1",
+    "accent": "#a4b3dd",
+    "secondary": "#bcc8e9",
+    "ink": "#191d24",
+    "metal": "#b8bdc3",
+    "lens": "#102128",
+    "paper": "#eff1ed",
+    "rubber": "#25282d",
+    "fabric": "#a4b3dd",
+    "leather": "#8f9fba"
+  },
+  "Cherry": {
+    "body": "#efddd2",
+    "accent": "#a82e40",
+    "secondary": "#d17b81",
+    "ink": "#392c31",
+    "metal": "#b79b75",
+    "lens": "#2c1926",
+    "paper": "#faebdf",
+    "rubber": "#4f373b",
+    "fabric": "#d17b81",
+    "leather": "#a82e40"
+  },
+  "Butter": {
+    "body": "#f3e5ba",
+    "accent": "#e3a53c",
+    "secondary": "#a6b695",
+    "ink": "#3a4135",
+    "metal": "#b99a62",
+    "lens": "#23352c",
+    "paper": "#fbf4de",
+    "rubber": "#4d5344",
+    "fabric": "#a6b695",
+    "leather": "#b99a62"
+  },
+  "Lilac": {
+    "body": "#e9e4f1",
+    "accent": "#8664b0",
+    "secondary": "#b3a7c4",
+    "ink": "#343044",
+    "metal": "#b8a8a0",
+    "lens": "#251f38",
+    "paper": "#f3ecf5",
+    "rubber": "#4b4359",
+    "fabric": "#b3a7c4",
+    "leather": "#8664b0"
+  },
+  "Graphite": {
+    "body": "#a7aaa7",
+    "accent": "#4b5854",
+    "secondary": "#d5d6cf",
+    "ink": "#252c29",
+    "metal": "#9b9f98",
+    "lens": "#1b2421",
+    "paper": "#ecece5",
+    "rubber": "#3c443f",
+    "fabric": "#4b5854",
+    "leather": "#4b5854"
+  }
+}
