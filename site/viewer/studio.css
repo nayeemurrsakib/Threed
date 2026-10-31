@@ -365,5 +365,17 @@ footer .footer-link,.ds-footer-link{text-transform:uppercase;display:inline-flex
  .collection,.properties{--col-pad:var(--space-20)}
  .collection{padding-left:var(--col-pad);padding-right:var(--col-pad)}
  .properties{padding-left:var(--col-pad);padding-right:var(--col-pad)}
- .search,.properties .property-section{margin-left:calc(-1 * var(--col-pad));margin-right:calc(-1 * var(--col-pad));padding-left:var(--col-pad);padding-right:var(--col-pad)}
+ .properties .property-section{margin-left:calc(-1 * var(--col-pad));margin-right:calc(-1 * var(--col-pad));padding-left:var(--col-pad);padding-right:var(--col-pad)}
 }
+
+/* Search field: a pill on the paper surface with the shared quiet-control border (no underline). */
+.search{gap:var(--space-8);min-height:36px;margin:0;padding:var(--space-2) var(--space-6) var(--space-2) var(--space-12);border:1px solid var(--secondary-border);border-radius:var(--radius-sm);background:var(--paper);transition:border-color var(--dur-fast) ease}
+.search:hover{border-color:var(--secondary-hover-border)}
+.search:focus-within{border-color:var(--ink)}
+.search span[aria-hidden="true"]:first-child{font-size:var(--fs-lg);line-height:1}
+.search input{padding:var(--space-6) 0}
+.search input:focus-visible{outline:none}
+.search-key{background:var(--stage);border-radius:var(--radius-xs)}
+@media(prefers-reduced-motion:reduce){.search{transition:none}}
+/* Fields (search, selects) share one corner radius. */
+.select-row select,.search{border-radius:var(--radius-sm)}

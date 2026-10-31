@@ -151,5 +151,7 @@ Badge component: .badge (leaf fill, mono, pill) is the one style for count badge
 
 Final avatar selection supersedes exploration directions: the owner approved the exact green-background blue-crewneck portrait and the exact lavender-background yellow-beanie floating head. Preserve both unchanged as branding/avatars/nayeemur-portrait-green-final.png and nayeemur-beanie-pastel-final.png. The green portrait is the footer default (assets/brand/nayeemur-r-s-3d.png); the beanie is an approved alternative (assets/brand/nayeemur-r-s-3d-beanie.png). Production files are resized derivatives only; do not redraw either approved image.
 
-Full-bleed dividers: horizontal lines inside the side columns (search underline, settings section dividers) run edge to edge between the frame line and the column divider; content keeps 20px padding (--col-pad). Applies at 561px and up.
+Full-bleed dividers: horizontal lines inside the side columns (settings section dividers) run edge to edge between the frame line and the column divider; content keeps 20px padding (--col-pad). Applies at 561px and up.
 Motion control has no visible label (tried beside, above, and as a badge; the user removed it). It keeps aria-label="Motion" for screen readers.
+Search is a field, not an underline: .search is a field with --radius-sm (8px, same as the selects; the pill was too round) on the paper surface with --secondary-border (hover --secondary-hover-border, focus ink), magnifier left, "/" key and live count right.
+Fields (search and select dropdowns) share --radius-sm (8px).
